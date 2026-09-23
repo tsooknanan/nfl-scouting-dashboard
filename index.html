@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NFL Tendency & Scouting Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen antialiased">
+  <div class="max-w-7xl mx-auto px-4 py-8">
+    <header class="flex flex-col md:flex-row justify-between items-start md:items-center pb-6 border-b border-slate-800 gap-4">
+      <div>
+        <h1 class="text-3xl font-extrabold tracking-tight text-white">NFL Tendency & Scouting Hub</h1>
+        <p class="text-slate-400 text-sm mt-1">Play calls, top skill-position directional matrices, and defensive coverage profiles</p>
+      </div>
+      <div class="flex items-center gap-3">
+        <label for="teamSelect" class="text-sm font-medium text-slate-400">Select Team:</label>
+        <select id="teamSelect" class="bg-slate-900 border border-slate-700 text-white font-semibold rounded-lg px-4 py-2 focus:ring-2 focus:ring-emerald-500 focus:outline-none">
+          <option value="" disabled>Loading teams...</option>
+        </select>
+      </div>
+    </header>
+
+    <main id="dashboard" class="mt-8 space-y-8">
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6">
+          <h2 class="text-lg font-bold text-emerald-400 mb-4">Offensive Play Call Tendencies</h2>
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between text-sm mb-1 font-medium">
+                <span>Pass Rate (<span id="offPassPlays">0</span> plays)</span>
+                <span id="offPassPct" class="text-emerald-400 font-bold">0%</span>
+              </div>
+              <div class="w-full bg-slate-800 rounded-full h-3">
+                <div id="offPassBar" class="bg-emerald-500 h-3 rounded-full transition-all duration-500" style="width: 0%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1 font-medium">
+                <span>Run Rate (<span id="offRunPlays">0</span> plays)</span>
+                <span id="offRunPct" class="text-teal-400 font-bold">0%</span>
+              </div>
+              <div class="w-full bg-slate-800 rounded-full h-3">
+                <div id="offRunBar" class="bg-teal-500 h-3 rounded-full transition-all duration-500" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6">
+          <h2 class="text-lg font-bold text-amber-400 mb-4">Opponent Defensive Calls Faced</h2>
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between text-sm mb-1 font-medium">
+                <span>Pass Plays Faced (<span id="defPassPlays">0</span>)</span>
+                <span id="defPassPct" class="text-amber-400 font-bold">0%</span>
+              </div>
+              <div class="w-full bg-slate-800 rounded-full h-3">
+                <div id="defPassBar" class="bg-amber-500 h-3 rounded-full transition-all duration-500" style="width: 0%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1 font-medium">
+                <span>Run Plays Faced (<span id="defRunPlays">0</span>)</span>
+                <span id="defRunPct" class="text-orange-400 font-bold">0%</span>
+              </div>
+              <div class="w-full bg-slate-800 rounded-full h-3">
+                <div id="defRunBar" class="bg-orange-500 h-3 rounded-full transition-all duration-500" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-6">
+        <h2 class="text-xl font-bold text-white mb-2">Top 3 Pass Catchers: Direction & Field Zones</h2>
+        <p class="text-sm text-slate-400 mb-6">Target share, catch efficiency, and visual target distribution by field depth</p>
+        <div id="receiversContainer" class="grid grid-cols-1 lg:grid-cols-3 gap-6"></div>
+      </section>
+
+      <section class="bg-slate-900 border border-slate-800 rounded-xl p-6">
+        <h2 class="text-xl font-bold text-white mb-2">Top 3 Rushers: Volume & Gap Distribution</h2>
+        <p class="text-sm text-slate-400 mb-6">Carry workload, efficiency, and directional rush preference</p>
+        <div id="rushersContainer" class="grid grid-cols-1 lg:grid-cols-3 gap-6"></div>
+      </section>
+
+      <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6">
+          <h2 class="text-lg font-bold text-cyan-400 mb-4">Defensive Alignment & Coverage Mix</h2>
+          <h3 class="text-xs uppercase font-semibold text-slate-400 mb-2">Box Presence Rate</h3>
+          <div class="grid grid-cols-3 gap-3 mb-6 text-center">
+            <div class="bg-slate-800 p-3 rounded-lg border border-slate-700">
+              <span class="block text-xs text-slate-400">Light Box (&le;6)</span>
+              <span id="boxLight" class="text-lg font-bold text-white">0%</span>
+            </div>
+            <div class="bg-slate-800 p-3 rounded-lg border border-slate-700">
+              <span class="block text-xs text-slate-400">Neutral (7)</span>
+              <span id="boxNeutral" class="text-lg font-bold text-white">0%</span>
+            </div>
+            <div class="bg-slate-800 p-3 rounded-lg border border-slate-700">
+              <span class="block text-xs text-slate-400">Heavy Box (&ge;8)</span>
+              <span id="boxHeavy" class="text-lg font-bold text-white">0%</span>
+            </div>
+          </div>
+          <h3 class="text-xs uppercase font-semibold text-slate-400 mb-2">Coverage Scheme Distribution</h3>
+          <div id="coverageBars" class="space-y-3"></div>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
+          <div>
+            <h2 class="text-lg font-bold text-white mb-4">Tactical Scouting Breakdown</h2>
+            <div class="mb-4">
+              <h3 class="text-xs font-semibold uppercase text-emerald-400 tracking-wide mb-2">Defensive Strengths</h3>
+              <ul id="defStrengths" class="space-y-2 text-sm text-slate-300"></ul>
+            </div>
+            <div>
+              <h3 class="text-xs font-semibold uppercase text-rose-400 tracking-wide mb-2">Exploitable Vulnerabilities</h3>
+              <ul id="defWeaknesses" class="space-y-2 text-sm text-slate-300"></ul>
+            </div>
+          </div>
+          <div class="mt-6 p-4 rounded-lg bg-slate-950/60 border border-slate-800 text-xs text-slate-400">
+            Rule of thumb: High single-high (Cover 1 / Cover 3) rates correlate with heavy box presences.
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    let nflData = {};
+
+    async function init() {
+      try {
+        const res = await fetch('./data/nfl_data.json');
+        if (!res.ok) throw new Error("Could not load data");
+        nflData = await res.json();
+        
+        const select = document.getElementById('teamSelect');
+        select.innerHTML = '';
+        Object.keys(nflData).forEach(team => {
+          const opt = document.createElement('option');
+          opt.value = team;
+          opt.textContent = team;
+          select.appendChild(opt);
+        });
+
+        select.addEventListener('change', (e) => renderTeam(e.target.value));
+        if (select.options.length > 0) renderTeam(select.options[0].value);
+      } catch (err) {
+        document.getElementById('dashboard').innerHTML = `
+          <div class="p-8 text-center bg-rose-950/40 border border-rose-800 rounded-xl text-rose-200">
+            <h3 class="text-lg font-bold mb-2">Data File Not Found</h3>
+            <p class="text-sm">Please run <code>python generate_data.py</code> to generate the dataset at <code>data/nfl_data.json</code>.</p>
+          </div>
+        `;
+      }
+    }
+
+    function renderTeam(team) {
+      const d = nflData[team];
+      if (!d) return;
+
+      document.getElementById('offPassPct').textContent = `${d.play_calling.offense.pass_pct}%`;
+      document.getElementById('offPassPlays').textContent = d.play_calling.offense.pass_plays;
+      document.getElementById('offPassBar').style.width = `${d.play_calling.offense.pass_pct}%`;
+
+      document.getElementById('offRunPct').textContent = `${d.play_calling.offense.run_pct}%`;
+      document.getElementById('offRunPlays').textContent = d.play_calling.offense.run_plays;
+      document.getElementById('offRunBar').style.width = `${d.play_calling.offense.run_pct}%`;
+
+      document.getElementById('defPassPct').textContent = `${d.play_calling.defense.pass_pct_faced}%`;
+      document.getElementById('defPassPlays').textContent = d.play_calling.defense.pass_plays_faced;
+      document.getElementById('defPassBar').style.width = `${d.play_calling.defense.pass_pct_faced}%`;
+
+      document.getElementById('defRunPct').textContent = `${d.play_calling.defense.run_pct_faced}%`;
+      document.getElementById('defRunPlays').textContent = d.play_calling.defense.run_plays_faced;
+      document.getElementById('defRunBar').style.width = `${d.play_calling.defense.run_pct_faced}%`;
+
+      const recContainer = document.getElementById('receiversContainer');
+      recContainer.innerHTML = d.top_receivers.map(r => `
+        <div class="bg-slate-950/60 border border-slate-800 rounded-lg p-4">
+          <div class="flex justify-between items-baseline mb-2">
+            <h3 class="font-bold text-white text-base">${r.name}</h3>
+            <span class="text-xs text-slate-400 font-medium">${r.catch_rate}% Catch</span>
+          </div>
+          <div class="text-xs text-slate-400 mb-4 flex gap-4">
+            <span>Tgt: <b class="text-slate-200">${r.targets}</b></span>
+            <span>Rec: <b class="text-slate-200">${r.receptions}</b></span>
+            <span>Yds: <b class="text-slate-200">${r.yards}</b></span>
+          </div>
+          <div class="border border-slate-800 rounded-md overflow-hidden text-center text-[10px]">
+            <div class="bg-slate-900 py-1 text-slate-400 border-b border-slate-800 font-medium">Deep (&gt;15 yds)</div>
+            <div class="grid grid-cols-3 border-b border-slate-800 divide-x divide-slate-800 bg-slate-950">
+              <div class="py-2"><span class="text-slate-500">L:</span> <b class="text-emerald-400">${r.field_zones.deep_left}</b></div>
+              <div class="py-2"><span class="text-slate-500">M:</span> <b class="text-emerald-400">${r.field_zones.deep_mid}</b></div>
+              <div class="py-2"><span class="text-slate-500">R:</span> <b class="text-emerald-400">${r.field_zones.deep_right}</b></div>
+            </div>
+            <div class="bg-slate-900 py-1 text-slate-400 border-b border-slate-800 font-medium">Short (0-15 yds)</div>
+            <div class="grid grid-cols-3 border-b border-slate-800 divide-x divide-slate-800 bg-slate-950">
+              <div class="py-2"><span class="text-slate-500">L:</span> <b class="text-cyan-400">${r.field_zones.short_left}</b></div>
+              <div class="py-2"><span class="text-slate-500">M:</span> <b class="text-cyan-400">${r.field_zones.short_mid}</b></div>
+              <div class="py-2"><span class="text-slate-500">R:</span> <b class="text-cyan-400">${r.field_zones.short_right}</b></div>
+            </div>
+            <div class="bg-slate-900 py-1 text-slate-400 font-medium">Behind LOS: <b class="text-slate-200">${r.field_zones.behind_los}</b></div>
+          </div>
+        </div>
+      `).join('');
+
+      const rushContainer = document.getElementById('rushersContainer');
+      rushContainer.innerHTML = d.top_rushers.map(rb => `
+        <div class="bg-slate-950/60 border border-slate-800 rounded-lg p-4">
+          <div class="flex justify-between items-baseline mb-2">
+            <h3 class="font-bold text-white text-base">${rb.name}</h3>
+            <span class="text-xs text-amber-400 font-bold">${rb.ypc} YPC</span>
+          </div>
+          <div class="text-xs text-slate-400 mb-4 flex gap-4">
+            <span>Carries: <b class="text-slate-200">${rb.carries}</b></span>
+            <span>Yds: <b class="text-slate-200">${rb.yards}</b></span>
+          </div>
+          <div class="space-y-1.5 text-xs">
+            <div class="flex justify-between text-slate-400"><span>Left:</span><b class="text-slate-200">${rb.directions.left} carries</b></div>
+            <div class="flex justify-between text-slate-400"><span>Middle:</span><b class="text-slate-200">${rb.directions.middle} carries</b></div>
+            <div class="flex justify-between text-slate-400"><span>Right:</span><b class="text-slate-200">${rb.directions.right} carries</b></div>
+          </div>
+        </div>
+      `).join('');
+
+      document.getElementById('boxLight').textContent = `${d.defense_scouting.box_presence.light_box_pct}%`;
+      document.getElementById('boxNeutral').textContent = `${d.defense_scouting.box_presence.neutral_box_pct}%`;
+      document.getElementById('boxHeavy').textContent = `${d.defense_scouting.box_presence.heavy_box_pct}%`;
+
+      const covContainer = document.getElementById('coverageBars');
+      covContainer.innerHTML = Object.entries(d.defense_scouting.coverages).map(([scheme, pct]) => `
+        <div>
+          <div class="flex justify-between text-xs mb-1">
+            <span class="text-slate-300">${scheme}</span>
+            <span class="text-slate-400 font-semibold">${pct}%</span>
+          </div>
+          <div class="w-full bg-slate-800 rounded-full h-2">
+            <div class="bg-cyan-500 h-2 rounded-full" style="width: ${pct}%"></div>
+          </div>
+        </div>
+      `).join('');
+
+      document.getElementById('defStrengths').innerHTML = d.defense_scouting.strengths.map(s => `
+        <li class="flex items-start gap-2">
+          <span class="text-emerald-400 mt-0.5">✓</span>
+          <span>${s}</span>
+        </li>
+      `).join('');
+
+      document.getElementById('defWeaknesses').innerHTML = d.defense_scouting.weaknesses.map(w => `
+        <li class="flex items-start gap-2">
+          <span class="text-rose-400 mt-0.5">✗</span>
+          <span>${w}</span>
+        </li>
+      `).join('');
+    }
+
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>

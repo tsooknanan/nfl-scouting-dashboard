@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: cramjam
+Version: 2.12.1
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Programming Language :: Python :: 3.15
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Typing :: Typed
+Requires-Dist: black==26.3.1 ; extra == 'dev'
+Requires-Dist: numpy ; extra == 'dev'
+Requires-Dist: pytest>=9.0.3 ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: pytest-benchmark ; extra == 'dev'
+Requires-Dist: hypothesis>=6.165.10 ; extra == 'dev'
+Provides-Extra: dev
+License-File: LICENSE
+Keywords: compression,decompression,snappy,zstd,bz2,gzip,lz4,brotli,deflate,blosc2
+Requires-Python: >=3.11
+Project-URL: documentation, https://docs.rs/cramjam/latest/cramjam
+Project-URL: homepage, https://github.com/milesgranger/pyrus-cramjam
+Project-URL: repository, https://github.com/milesgranger/pyrus-cramjam

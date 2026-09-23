@@ -1,0 +1,4381 @@
+{
+  "ARI": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 68,
+        "run_plays": 48,
+        "pass_pct": 58.6,
+        "run_pct": 41.4
+      },
+      "defense": {
+        "pass_plays_faced": 57,
+        "run_plays_faced": 61,
+        "pass_pct_faced": 48.3,
+        "run_pct_faced": 51.7
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "T.McBride",
+        "targets": 23,
+        "receptions": 17,
+        "yards": 136,
+        "catch_rate": 73.9,
+        "directions": {
+          "left": 7,
+          "middle": 6,
+          "right": 10
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 7,
+          "short_mid": 6,
+          "short_right": 7,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "Mi.Wilson",
+        "targets": 14,
+        "receptions": 7,
+        "yards": 74,
+        "catch_rate": 50.0,
+        "directions": {
+          "left": 4,
+          "middle": 2,
+          "right": 8
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 1,
+          "short_mid": 0,
+          "short_right": 5,
+          "deep_left": 2,
+          "deep_mid": 1,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "K.Bourne",
+        "targets": 11,
+        "receptions": 10,
+        "yards": 86,
+        "catch_rate": 90.9,
+        "directions": {
+          "left": 7,
+          "middle": 2,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 7,
+          "short_mid": 2,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "T.Allgeier",
+        "carries": 22,
+        "yards": 71,
+        "ypc": 3.23,
+        "directions": {
+          "left": 7,
+          "middle": 10,
+          "right": 5
+        }
+      },
+      {
+        "name": "J.Love",
+        "carries": 20,
+        "yards": 70,
+        "ypc": 3.5,
+        "directions": {
+          "left": 3,
+          "middle": 10,
+          "right": 7
+        }
+      },
+      {
+        "name": "J.Brissett",
+        "carries": 4,
+        "yards": 24,
+        "ypc": 6.0,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 0
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 26.4,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 30.6
+      },
+      "coverages": {
+        "Cover 1": 28,
+        "Cover 3": 38,
+        "Cover 2": 11,
+        "Cover 4 (Quarters)": 15,
+        "Cover 6": 8
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.23); front seven reliably controls line of scrimmage."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+0.32 EPA allowed on deep throws) when safeties trigger downhill."
+      ]
+    }
+  },
+  "ATL": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 61,
+        "run_plays": 63,
+        "pass_pct": 49.2,
+        "run_pct": 50.8
+      },
+      "defense": {
+        "pass_plays_faced": 81,
+        "run_plays_faced": 39,
+        "pass_pct_faced": 67.5,
+        "run_pct_faced": 32.5
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "Bi.Robinson",
+        "targets": 14,
+        "receptions": 11,
+        "yards": 99,
+        "catch_rate": 78.6,
+        "directions": {
+          "left": 7,
+          "middle": 1,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 10,
+          "short_left": 3,
+          "short_mid": 1,
+          "short_right": 0,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "D.London",
+        "targets": 9,
+        "receptions": 6,
+        "yards": 80,
+        "catch_rate": 66.7,
+        "directions": {
+          "left": 3,
+          "middle": 2,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 2,
+          "short_mid": 2,
+          "short_right": 3,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "J.Dotson",
+        "targets": 7,
+        "receptions": 3,
+        "yards": 30,
+        "catch_rate": 42.9,
+        "directions": {
+          "left": 2,
+          "middle": 1,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 0,
+          "short_mid": 0,
+          "short_right": 2,
+          "deep_left": 1,
+          "deep_mid": 1,
+          "deep_right": 2
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "Bi.Robinson",
+        "carries": 37,
+        "yards": 155,
+        "ypc": 4.19,
+        "directions": {
+          "left": 15,
+          "middle": 11,
+          "right": 11
+        }
+      },
+      {
+        "name": "Br.Robinson",
+        "carries": 20,
+        "yards": 82,
+        "ypc": 4.1,
+        "directions": {
+          "left": 10,
+          "middle": 4,
+          "right": 6
+        }
+      },
+      {
+        "name": "D.London",
+        "carries": 2,
+        "yards": 4,
+        "ypc": 2.0,
+        "directions": {
+          "left": 2,
+          "middle": 0,
+          "right": 0
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 15.7,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 41.3
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.19); front seven reliably controls line of scrimmage.",
+        "Coverage efficiency (Allowed Pass EPA: -0.04) with tight underneath zone brackets."
+      ],
+      "weaknesses": [
+        "Susceptible to intermediate crossing concepts and mesh routes across zone seam transitions.",
+        "Vulnerable to downhill power-gap runs (only 35.9% stop rate against interior carries)."
+      ]
+    }
+  },
+  "BAL": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 59,
+        "run_plays": 56,
+        "pass_pct": 51.3,
+        "run_pct": 48.7
+      },
+      "defense": {
+        "pass_plays_faced": 70,
+        "run_plays_faced": 47,
+        "pass_pct_faced": 59.8,
+        "run_pct_faced": 40.2
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "M.Andrews",
+        "targets": 13,
+        "receptions": 10,
+        "yards": 98,
+        "catch_rate": 76.9,
+        "directions": {
+          "left": 4,
+          "middle": 7,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 4,
+          "short_mid": 7,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "R.Bateman",
+        "targets": 10,
+        "receptions": 7,
+        "yards": 88,
+        "catch_rate": 70.0,
+        "directions": {
+          "left": 4,
+          "middle": 2,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 1,
+          "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 3,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "Z.Flowers",
+        "targets": 6,
+        "receptions": 5,
+        "yards": 150,
+        "catch_rate": 83.3,
+        "directions": {
+          "left": 2,
+          "middle": 3,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 1,
+          "short_mid": 2,
+          "short_right": 0,
+          "deep_left": 1,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "D.Henry",
+        "carries": 40,
+        "yards": 212,
+        "ypc": 5.3,
+        "directions": {
+          "left": 17,
+          "middle": 3,
+          "right": 20
+        }
+      },
+      {
+        "name": "L.Jackson",
+        "carries": 8,
+        "yards": 77,
+        "ypc": 9.62,
+        "directions": {
+          "left": 4,
+          "middle": 2,
+          "right": 2
+        }
+      },
+      {
+        "name": "J.Hill",
+        "carries": 8,
+        "yards": 24,
+        "ypc": 3.0,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 4
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 31.2,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 25.8
+      },
+      "coverages": {
+        "Cover 1": 28,
+        "Cover 3": 38,
+        "Cover 2": 11,
+        "Cover 4 (Quarters)": 15,
+        "Cover 6": 8
+      },
+      "strengths": [
+        "Disciplined perimeter containment (55.3% run-stop rate) prevents explosive outside gains.",
+        "Coverage efficiency (Allowed Pass EPA: -0.06) with tight underneath zone brackets."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+0.39 EPA allowed on deep throws) when safeties trigger downhill."
+      ]
+    }
+  },
+  "BUF": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 65,
+        "run_plays": 53,
+        "pass_pct": 55.1,
+        "run_pct": 44.9
+      },
+      "defense": {
+        "pass_plays_faced": 83,
+        "run_plays_faced": 52,
+        "pass_pct_faced": 61.5,
+        "run_pct_faced": 38.5
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "D.Kincaid",
+        "targets": 14,
+        "receptions": 12,
+        "yards": 225,
+        "catch_rate": 85.7,
+        "directions": {
+          "left": 3,
+          "middle": 5,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 3,
+          "short_mid": 3,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 2,
+          "deep_right": 3
+        }
+      },
+      {
+        "name": "K.Shakir",
+        "targets": 12,
+        "receptions": 7,
+        "yards": 78,
+        "catch_rate": 58.3,
+        "directions": {
+          "left": 1,
+          "middle": 4,
+          "right": 7
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 0,
+          "short_mid": 2,
+          "short_right": 5,
+          "deep_left": 0,
+          "deep_mid": 2,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "K.Coleman",
+        "targets": 8,
+        "receptions": 7,
+        "yards": 74,
+        "catch_rate": 87.5,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 3,
+          "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "J.Cook",
+        "carries": 34,
+        "yards": 192,
+        "ypc": 5.65,
+        "directions": {
+          "left": 14,
+          "middle": 6,
+          "right": 14
+        }
+      },
+      {
+        "name": "J.Allen",
+        "carries": 16,
+        "yards": 96,
+        "ypc": 6.0,
+        "directions": {
+          "left": 5,
+          "middle": 5,
+          "right": 5
+        }
+      },
+      {
+        "name": "R.Davis",
+        "carries": 1,
+        "yards": 3,
+        "ypc": 3.0,
+        "directions": {
+          "left": 0,
+          "middle": 0,
+          "right": 1
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 28.5,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 28.5
+      },
+      "coverages": {
+        "Cover 1": 28,
+        "Cover 3": 38,
+        "Cover 2": 11,
+        "Cover 4 (Quarters)": 15,
+        "Cover 6": 8
+      },
+      "strengths": [
+        "Disciplined perimeter containment (51.9% run-stop rate) prevents explosive outside gains."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+0.62 EPA allowed on deep throws) when safeties trigger downhill."
+      ]
+    }
+  },
+  "CAR": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 78,
+        "run_plays": 43,
+        "pass_pct": 64.5,
+        "run_pct": 35.5
+      },
+      "defense": {
+        "pass_plays_faced": 66,
+        "run_plays_faced": 71,
+        "pass_pct_faced": 48.2,
+        "run_pct_faced": 51.8
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "J.Coker",
+        "targets": 18,
+        "receptions": 16,
+        "yards": 204,
+        "catch_rate": 88.9,
+        "directions": {
+          "left": 9,
+          "middle": 3,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 5,
+          "short_mid": 2,
+          "short_right": 4,
+          "deep_left": 2,
+          "deep_mid": 0,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "T.McMillan",
+        "targets": 18,
+        "receptions": 10,
+        "yards": 176,
+        "catch_rate": 55.6,
+        "directions": {
+          "left": 9,
+          "middle": 2,
+          "right": 7
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 4,
+          "short_mid": 1,
+          "short_right": 4,
+          "deep_left": 4,
+          "deep_mid": 1,
+          "deep_right": 3
+        }
+      },
+      {
+        "name": "T.Tremble",
+        "targets": 7,
+        "receptions": 4,
+        "yards": 29,
+        "catch_rate": 57.1,
+        "directions": {
+          "left": 2,
+          "middle": 2,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 1,
+          "short_mid": 2,
+          "short_right": 2,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "C.Hubbard",
+        "carries": 22,
+        "yards": 102,
+        "ypc": 4.64,
+        "directions": {
+          "left": 9,
+          "middle": 10,
+          "right": 3
+        }
+      },
+      {
+        "name": "J.Brooks",
+        "carries": 9,
+        "yards": 30,
+        "ypc": 3.33,
+        "directions": {
+          "left": 6,
+          "middle": 1,
+          "right": 2
+        }
+      },
+      {
+        "name": "A.Dillon",
+        "carries": 8,
+        "yards": 25,
+        "ypc": 3.12,
+        "directions": {
+          "left": 4,
+          "middle": 3,
+          "right": 1
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 12.0,
+        "neutral_box_pct": 40.6,
+        "light_box_pct": 47.4
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Disciplined perimeter containment (28.2% run-stop rate) prevents explosive outside gains.",
+        "Coverage efficiency (Allowed Pass EPA: -0.17) with tight underneath zone brackets."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+1.01 EPA allowed on deep throws) when safeties trigger downhill.",
+        "Vulnerable to downhill power-gap runs (only 28.2% stop rate against interior carries)."
+      ]
+    }
+  },
+  "CHI": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 69,
+        "run_plays": 70,
+        "pass_pct": 49.6,
+        "run_pct": 50.4
+      },
+      "defense": {
+        "pass_plays_faced": 63,
+        "run_plays_faced": 50,
+        "pass_pct_faced": 55.8,
+        "run_pct_faced": 44.2
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "K.Raymond",
+        "targets": 14,
+        "receptions": 13,
+        "yards": 124,
+        "catch_rate": 92.9,
+        "directions": {
+          "left": 4,
+          "middle": 3,
+          "right": 7
+        },
+        "field_zones": {
+          "behind_los": 4,
+          "short_left": 1,
+          "short_mid": 3,
+          "short_right": 5,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "L.Burden",
+        "targets": 12,
+        "receptions": 8,
+        "yards": 95,
+        "catch_rate": 66.7,
+        "directions": {
+          "left": 5,
+          "middle": 4,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 4,
+          "short_mid": 1,
+          "short_right": 1,
+          "deep_left": 1,
+          "deep_mid": 3,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "R.Odunze",
+        "targets": 7,
+        "receptions": 5,
+        "yards": 95,
+        "catch_rate": 71.4,
+        "directions": {
+          "left": 2,
+          "middle": 2,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 1,
+          "short_mid": 2,
+          "short_right": 0,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 3
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "D.Swift",
+        "carries": 34,
+        "yards": 169,
+        "ypc": 4.97,
+        "directions": {
+          "left": 11,
+          "middle": 3,
+          "right": 20
+        }
+      },
+      {
+        "name": "K.Monangai",
+        "carries": 20,
+        "yards": 147,
+        "ypc": 7.35,
+        "directions": {
+          "left": 5,
+          "middle": 2,
+          "right": 13
+        }
+      },
+      {
+        "name": "C.Williams",
+        "carries": 15,
+        "yards": 107,
+        "ypc": 7.13,
+        "directions": {
+          "left": 5,
+          "middle": 3,
+          "right": 6
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 12.0,
+        "neutral_box_pct": 40.4,
+        "light_box_pct": 47.6
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.07); front seven reliably controls line of scrimmage."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+0.26 EPA allowed on deep throws) when safeties trigger downhill.",
+        "Vulnerable to downhill power-gap runs (only 28.0% stop rate against interior carries)."
+      ]
+    }
+  },
+  "CIN": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 72,
+        "run_plays": 48,
+        "pass_pct": 60.0,
+        "run_pct": 40.0
+      },
+      "defense": {
+        "pass_plays_faced": 90,
+        "run_plays_faced": 37,
+        "pass_pct_faced": 70.9,
+        "run_pct_faced": 29.1
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "T.Higgins",
+        "targets": 16,
+        "receptions": 8,
+        "yards": 154,
+        "catch_rate": 50.0,
+        "directions": {
+          "left": 3,
+          "middle": 6,
+          "right": 7
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 3,
+          "short_mid": 3,
+          "short_right": 5,
+          "deep_left": 0,
+          "deep_mid": 3,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "J.Chase",
+        "targets": 13,
+        "receptions": 9,
+        "yards": 87,
+        "catch_rate": 69.2,
+        "directions": {
+          "left": 5,
+          "middle": 3,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 1,
+          "deep_mid": 1,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "C.Brown",
+        "targets": 11,
+        "receptions": 8,
+        "yards": 24,
+        "catch_rate": 72.7,
+        "directions": {
+          "left": 7,
+          "middle": 1,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 9,
+          "short_left": 1,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "C.Brown",
+        "carries": 36,
+        "yards": 136,
+        "ypc": 3.78,
+        "directions": {
+          "left": 11,
+          "middle": 13,
+          "right": 12
+        }
+      },
+      {
+        "name": "S.Perine",
+        "carries": 7,
+        "yards": 26,
+        "ypc": 3.71,
+        "directions": {
+          "left": 1,
+          "middle": 4,
+          "right": 2
+        }
+      },
+      {
+        "name": "J.Burrow",
+        "carries": 4,
+        "yards": 21,
+        "ypc": 5.25,
+        "directions": {
+          "left": 2,
+          "middle": 2,
+          "right": 0
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 19.4,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 37.6
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.3); front seven reliably controls line of scrimmage.",
+        "Coverage efficiency (Allowed Pass EPA: -0.19) with tight underneath zone brackets."
+      ],
+      "weaknesses": [
+        "Susceptible to intermediate crossing concepts and mesh routes across zone seam transitions."
+      ]
+    }
+  },
+  "CLE": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 59,
+        "run_plays": 43,
+        "pass_pct": 57.8,
+        "run_pct": 42.2
+      },
+      "defense": {
+        "pass_plays_faced": 61,
+        "run_plays_faced": 54,
+        "pass_pct_faced": 53.0,
+        "run_pct_faced": 47.0
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "K.Concepcion",
+        "targets": 11,
+        "receptions": 10,
+        "yards": 71,
+        "catch_rate": 90.9,
+        "directions": {
+          "left": 4,
+          "middle": 3,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 4,
+          "short_left": 1,
+          "short_mid": 2,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "D.Boston",
+        "targets": 11,
+        "receptions": 7,
+        "yards": 154,
+        "catch_rate": 63.6,
+        "directions": {
+          "left": 6,
+          "middle": 2,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 4,
+          "short_mid": 1,
+          "short_right": 2,
+          "deep_left": 2,
+          "deep_mid": 1,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "H.Fannin",
+        "targets": 9,
+        "receptions": 7,
+        "yards": 75,
+        "catch_rate": 77.8,
+        "directions": {
+          "left": 5,
+          "middle": 2,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 3,
+          "short_mid": 2,
+          "short_right": 2,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "Q.Judkins",
+        "carries": 24,
+        "yards": 54,
+        "ypc": 2.25,
+        "directions": {
+          "left": 13,
+          "middle": 5,
+          "right": 6
+        }
+      },
+      {
+        "name": "D.Watson",
+        "carries": 11,
+        "yards": 62,
+        "ypc": 5.64,
+        "directions": {
+          "left": 4,
+          "middle": 3,
+          "right": 4
+        }
+      },
+      {
+        "name": "K.Concepcion",
+        "carries": 4,
+        "yards": 9,
+        "ypc": 2.25,
+        "directions": {
+          "left": 3,
+          "middle": 0,
+          "right": 1
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 13.6,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 43.4
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Disciplined perimeter containment (33.3% run-stop rate) prevents explosive outside gains."
+      ],
+      "weaknesses": [
+        "Susceptible to intermediate crossing concepts and mesh routes across zone seam transitions.",
+        "Vulnerable to downhill power-gap runs (only 33.3% stop rate against interior carries)."
+      ]
+    }
+  },
+  "DAL": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 67,
+        "run_plays": 39,
+        "pass_pct": 63.2,
+        "run_pct": 36.8
+      },
+      "defense": {
+        "pass_plays_faced": 66,
+        "run_plays_faced": 66,
+        "pass_pct_faced": 50.0,
+        "run_pct_faced": 50.0
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "C.Lamb",
+        "targets": 17,
+        "receptions": 13,
+        "yards": 197,
+        "catch_rate": 76.5,
+        "directions": {
+          "left": 7,
+          "middle": 3,
+          "right": 7
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 4,
+          "short_mid": 2,
+          "short_right": 3,
+          "deep_left": 2,
+          "deep_mid": 1,
+          "deep_right": 4
+        }
+      },
+      {
+        "name": "G.Pickens",
+        "targets": 14,
+        "receptions": 9,
+        "yards": 68,
+        "catch_rate": 64.3,
+        "directions": {
+          "left": 4,
+          "middle": 1,
+          "right": 9
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 3,
+          "short_mid": 1,
+          "short_right": 6,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 3
+        }
+      },
+      {
+        "name": "R.Flournoy",
+        "targets": 10,
+        "receptions": 7,
+        "yards": 45,
+        "catch_rate": 70.0,
+        "directions": {
+          "left": 8,
+          "middle": 1,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 5,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "J.Williams",
+        "carries": 24,
+        "yards": 71,
+        "ypc": 2.96,
+        "directions": {
+          "left": 6,
+          "middle": 9,
+          "right": 9
+        }
+      },
+      {
+        "name": "D.Prescott",
+        "carries": 6,
+        "yards": 40,
+        "ypc": 6.67,
+        "directions": {
+          "left": 1,
+          "middle": 3,
+          "right": 2
+        }
+      },
+      {
+        "name": "E.Demercado",
+        "carries": 5,
+        "yards": 15,
+        "ypc": 3.0,
+        "directions": {
+          "left": 1,
+          "middle": 2,
+          "right": 2
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 12.4,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 44.6
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Disciplined perimeter containment (31.8% run-stop rate) prevents explosive outside gains."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+0.47 EPA allowed on deep throws) when safeties trigger downhill.",
+        "Vulnerable to downhill power-gap runs (only 31.8% stop rate against interior carries)."
+      ]
+    }
+  },
+  "DEN": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 63,
+        "run_plays": 39,
+        "pass_pct": 61.8,
+        "run_pct": 38.2
+      },
+      "defense": {
+        "pass_plays_faced": 60,
+        "run_plays_faced": 59,
+        "pass_pct_faced": 50.4,
+        "run_pct_faced": 49.6
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "J.Waddle",
+        "targets": 13,
+        "receptions": 9,
+        "yards": 140,
+        "catch_rate": 69.2,
+        "directions": {
+          "left": 5,
+          "middle": 2,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 3,
+          "short_mid": 1,
+          "short_right": 4,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "C.Sutton",
+        "targets": 9,
+        "receptions": 5,
+        "yards": 36,
+        "catch_rate": 55.6,
+        "directions": {
+          "left": 4,
+          "middle": 1,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 4,
+          "short_mid": 0,
+          "short_right": 4,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "P.Bryant",
+        "targets": 7,
+        "receptions": 4,
+        "yards": 42,
+        "catch_rate": 57.1,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "J.Dobbins",
+        "carries": 18,
+        "yards": 72,
+        "ypc": 4.0,
+        "directions": {
+          "left": 8,
+          "middle": 6,
+          "right": 4
+        }
+      },
+      {
+        "name": "J.Coleman",
+        "carries": 10,
+        "yards": 39,
+        "ypc": 3.9,
+        "directions": {
+          "left": 4,
+          "middle": 2,
+          "right": 4
+        }
+      },
+      {
+        "name": "B.Nix",
+        "carries": 4,
+        "yards": 12,
+        "ypc": 3.0,
+        "directions": {
+          "left": 2,
+          "middle": 0,
+          "right": 1
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 19.6,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 37.4
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Disciplined perimeter containment (40.7% run-stop rate) prevents explosive outside gains.",
+        "Coverage efficiency (Allowed Pass EPA: -0.11) with tight underneath zone brackets."
+      ],
+      "weaknesses": [
+        "Susceptible to intermediate crossing concepts and mesh routes across zone seam transitions."
+      ]
+    }
+  },
+  "DET": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 82,
+        "run_plays": 53,
+        "pass_pct": 60.7,
+        "run_pct": 39.3
+      },
+      "defense": {
+        "pass_plays_faced": 94,
+        "run_plays_faced": 58,
+        "pass_pct_faced": 61.8,
+        "run_pct_faced": 38.2
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "A.St. Brown",
+        "targets": 27,
+        "receptions": 19,
+        "yards": 209,
+        "catch_rate": 70.4,
+        "directions": {
+          "left": 12,
+          "middle": 4,
+          "right": 11
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 9,
+          "short_mid": 1,
+          "short_right": 8,
+          "deep_left": 1,
+          "deep_mid": 3,
+          "deep_right": 3
+        }
+      },
+      {
+        "name": "S.LaPorta",
+        "targets": 15,
+        "receptions": 11,
+        "yards": 100,
+        "catch_rate": 73.3,
+        "directions": {
+          "left": 9,
+          "middle": 2,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 7,
+          "short_mid": 2,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "J.Gibbs",
+        "targets": 13,
+        "receptions": 11,
+        "yards": 91,
+        "catch_rate": 84.6,
+        "directions": {
+          "left": 3,
+          "middle": 4,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 3,
+          "short_mid": 3,
+          "short_right": 4,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "J.Gibbs",
+        "carries": 45,
+        "yards": 208,
+        "ypc": 4.62,
+        "directions": {
+          "left": 14,
+          "middle": 14,
+          "right": 17
+        }
+      },
+      {
+        "name": "J.Goff",
+        "carries": 5,
+        "yards": 9,
+        "ypc": 1.8,
+        "directions": {
+          "left": 2,
+          "middle": 1,
+          "right": 0
+        }
+      },
+      {
+        "name": "S.Vaki",
+        "carries": 3,
+        "yards": 14,
+        "ypc": 4.67,
+        "directions": {
+          "left": 0,
+          "middle": 2,
+          "right": 1
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 28.4,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 28.6
+      },
+      "coverages": {
+        "Cover 1": 28,
+        "Cover 3": 38,
+        "Cover 2": 11,
+        "Cover 4 (Quarters)": 15,
+        "Cover 6": 8
+      },
+      "strengths": [
+        "Disciplined perimeter containment (51.7% run-stop rate) prevents explosive outside gains."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+1.76 EPA allowed on deep throws) when safeties trigger downhill."
+      ]
+    }
+  },
+  "GB": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 78,
+        "run_plays": 39,
+        "pass_pct": 66.7,
+        "run_pct": 33.3
+      },
+      "defense": {
+        "pass_plays_faced": 72,
+        "run_plays_faced": 58,
+        "pass_pct_faced": 55.4,
+        "run_pct_faced": 44.6
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "C.Watson",
+        "targets": 19,
+        "receptions": 10,
+        "yards": 188,
+        "catch_rate": 52.6,
+        "directions": {
+          "left": 6,
+          "middle": 6,
+          "right": 7
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 4,
+          "short_mid": 4,
+          "short_right": 5,
+          "deep_left": 2,
+          "deep_mid": 2,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "M.Golden",
+        "targets": 18,
+        "receptions": 10,
+        "yards": 153,
+        "catch_rate": 55.6,
+        "directions": {
+          "left": 6,
+          "middle": 5,
+          "right": 7
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 6,
+          "short_mid": 4,
+          "short_right": 4,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 3
+        }
+      },
+      {
+        "name": "T.Kraft",
+        "targets": 9,
+        "receptions": 5,
+        "yards": 80,
+        "catch_rate": 55.6,
+        "directions": {
+          "left": 3,
+          "middle": 4,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 2,
+          "short_mid": 3,
+          "short_right": 1,
+          "deep_left": 1,
+          "deep_mid": 1,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "M.Lloyd",
+        "carries": 19,
+        "yards": 57,
+        "ypc": 3.0,
+        "directions": {
+          "left": 11,
+          "middle": 3,
+          "right": 5
+        }
+      },
+      {
+        "name": "C.Brooks",
+        "carries": 11,
+        "yards": 40,
+        "ypc": 3.64,
+        "directions": {
+          "left": 7,
+          "middle": 2,
+          "right": 2
+        }
+      },
+      {
+        "name": "K.Johnson",
+        "carries": 8,
+        "yards": 32,
+        "ypc": 4.0,
+        "directions": {
+          "left": 5,
+          "middle": 3,
+          "right": 0
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 31.2,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 25.8
+      },
+      "coverages": {
+        "Cover 1": 28,
+        "Cover 3": 38,
+        "Cover 2": 11,
+        "Cover 4 (Quarters)": 15,
+        "Cover 6": 8
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.23); front seven reliably controls line of scrimmage."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+0.51 EPA allowed on deep throws) when safeties trigger downhill."
+      ]
+    }
+  },
+  "HOU": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 99,
+        "run_plays": 50,
+        "pass_pct": 66.4,
+        "run_pct": 33.6
+      },
+      "defense": {
+        "pass_plays_faced": 68,
+        "run_plays_faced": 42,
+        "pass_pct_faced": 61.8,
+        "run_pct_faced": 38.2
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "D.Schultz",
+        "targets": 22,
+        "receptions": 16,
+        "yards": 175,
+        "catch_rate": 72.7,
+        "directions": {
+          "left": 6,
+          "middle": 4,
+          "right": 12
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 4,
+          "short_mid": 2,
+          "short_right": 11,
+          "deep_left": 1,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "X.Hutchinson",
+        "targets": 15,
+        "receptions": 6,
+        "yards": 69,
+        "catch_rate": 40.0,
+        "directions": {
+          "left": 4,
+          "middle": 5,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 4,
+          "short_mid": 4,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 3
+        }
+      },
+      {
+        "name": "N.Collins",
+        "targets": 10,
+        "receptions": 7,
+        "yards": 75,
+        "catch_rate": 70.0,
+        "directions": {
+          "left": 2,
+          "middle": 5,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 0,
+          "short_mid": 5,
+          "short_right": 1,
+          "deep_left": 2,
+          "deep_mid": 0,
+          "deep_right": 2
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "D.Montgomery",
+        "carries": 26,
+        "yards": 70,
+        "ypc": 2.69,
+        "directions": {
+          "left": 11,
+          "middle": 3,
+          "right": 12
+        }
+      },
+      {
+        "name": "W.Marks",
+        "carries": 17,
+        "yards": 50,
+        "ypc": 2.94,
+        "directions": {
+          "left": 5,
+          "middle": 5,
+          "right": 7
+        }
+      },
+      {
+        "name": "C.Stroud",
+        "carries": 5,
+        "yards": 44,
+        "ypc": 8.8,
+        "directions": {
+          "left": 2,
+          "middle": 2,
+          "right": 1
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 17.5,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 39.5
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.18); front seven reliably controls line of scrimmage."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+1.6 EPA allowed on deep throws) when safeties trigger downhill."
+      ]
+    }
+  },
+  "IND": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 64,
+        "run_plays": 52,
+        "pass_pct": 55.2,
+        "run_pct": 44.8
+      },
+      "defense": {
+        "pass_plays_faced": 75,
+        "run_plays_faced": 63,
+        "pass_pct_faced": 54.3,
+        "run_pct_faced": 45.7
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "J.Downs",
+        "targets": 13,
+        "receptions": 9,
+        "yards": 109,
+        "catch_rate": 69.2,
+        "directions": {
+          "left": 4,
+          "middle": 5,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 5,
+          "short_right": 3,
+          "deep_left": 2,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "T.Warren",
+        "targets": 12,
+        "receptions": 9,
+        "yards": 34,
+        "catch_rate": 75.0,
+        "directions": {
+          "left": 4,
+          "middle": 3,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 5,
+          "short_left": 1,
+          "short_mid": 3,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "K.Allen",
+        "targets": 11,
+        "receptions": 7,
+        "yards": 37,
+        "catch_rate": 63.6,
+        "directions": {
+          "left": 5,
+          "middle": 1,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 5,
+          "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "J.Taylor",
+        "carries": 43,
+        "yards": 190,
+        "ypc": 4.42,
+        "directions": {
+          "left": 11,
+          "middle": 7,
+          "right": 25
+        }
+      },
+      {
+        "name": "D.Jones",
+        "carries": 4,
+        "yards": 14,
+        "ypc": 3.5,
+        "directions": {
+          "left": 1,
+          "middle": 1,
+          "right": 2
+        }
+      },
+      {
+        "name": "D.Burks",
+        "carries": 2,
+        "yards": 14,
+        "ypc": 7.0,
+        "directions": {
+          "left": 1,
+          "middle": 0,
+          "right": 1
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 13.6,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 43.4
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Disciplined perimeter containment (33.3% run-stop rate) prevents explosive outside gains."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+1.26 EPA allowed on deep throws) when safeties trigger downhill.",
+        "Vulnerable to downhill power-gap runs (only 33.3% stop rate against interior carries)."
+      ]
+    }
+  },
+  "JAX": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 55,
+        "run_plays": 53,
+        "pass_pct": 50.9,
+        "run_pct": 49.1
+      },
+      "defense": {
+        "pass_plays_faced": 58,
+        "run_plays_faced": 47,
+        "pass_pct_faced": 55.2,
+        "run_pct_faced": 44.8
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "P.Washington",
+        "targets": 18,
+        "receptions": 12,
+        "yards": 181,
+        "catch_rate": 66.7,
+        "directions": {
+          "left": 11,
+          "middle": 3,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 6,
+          "short_mid": 1,
+          "short_right": 2,
+          "deep_left": 5,
+          "deep_mid": 2,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "Bri.Thomas",
+        "targets": 11,
+        "receptions": 6,
+        "yards": 80,
+        "catch_rate": 54.5,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 7
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 1,
+          "short_mid": 0,
+          "short_right": 5,
+          "deep_left": 2,
+          "deep_mid": 0,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "B.Strange",
+        "targets": 5,
+        "receptions": 4,
+        "yards": 40,
+        "catch_rate": 80.0,
+        "directions": {
+          "left": 2,
+          "middle": 2,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 2,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "B.Tuten",
+        "carries": 28,
+        "yards": 131,
+        "ypc": 4.68,
+        "directions": {
+          "left": 9,
+          "middle": 5,
+          "right": 14
+        }
+      },
+      {
+        "name": "C.Rodriguez",
+        "carries": 12,
+        "yards": 36,
+        "ypc": 3.0,
+        "directions": {
+          "left": 4,
+          "middle": 5,
+          "right": 3
+        }
+      },
+      {
+        "name": "A.Abdullah",
+        "carries": 7,
+        "yards": 43,
+        "ypc": 6.14,
+        "directions": {
+          "left": 5,
+          "middle": 1,
+          "right": 1
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 17.6,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 39.4
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Disciplined perimeter containment (38.3% run-stop rate) prevents explosive outside gains.",
+        "Coverage efficiency (Allowed Pass EPA: -0.02) with tight underneath zone brackets."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+1.44 EPA allowed on deep throws) when safeties trigger downhill."
+      ]
+    }
+  },
+  "KC": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 78,
+        "run_plays": 64,
+        "pass_pct": 54.9,
+        "run_pct": 45.1
+      },
+      "defense": {
+        "pass_plays_faced": 63,
+        "run_plays_faced": 46,
+        "pass_pct_faced": 57.8,
+        "run_pct_faced": 42.2
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "T.Kelce",
+        "targets": 16,
+        "receptions": 12,
+        "yards": 172,
+        "catch_rate": 75.0,
+        "directions": {
+          "left": 4,
+          "middle": 3,
+          "right": 9
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 3,
+          "short_mid": 3,
+          "short_right": 6,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "K.Walker",
+        "targets": 16,
+        "receptions": 9,
+        "yards": 79,
+        "catch_rate": 56.2,
+        "directions": {
+          "left": 7,
+          "middle": 4,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 6,
+          "short_left": 6,
+          "short_mid": 3,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "X.Worthy",
+        "targets": 13,
+        "receptions": 8,
+        "yards": 43,
+        "catch_rate": 61.5,
+        "directions": {
+          "left": 2,
+          "middle": 3,
+          "right": 8
+        },
+        "field_zones": {
+          "behind_los": 5,
+          "short_left": 0,
+          "short_mid": 2,
+          "short_right": 4,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "K.Walker",
+        "carries": 47,
+        "yards": 290,
+        "ypc": 6.17,
+        "directions": {
+          "left": 20,
+          "middle": 20,
+          "right": 7
+        }
+      },
+      {
+        "name": "E.Johnson",
+        "carries": 10,
+        "yards": 39,
+        "ypc": 3.9,
+        "directions": {
+          "left": 2,
+          "middle": 5,
+          "right": 3
+        }
+      },
+      {
+        "name": "P.Mahomes",
+        "carries": 6,
+        "yards": 44,
+        "ypc": 7.33,
+        "directions": {
+          "left": 2,
+          "middle": 3,
+          "right": 1
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 18.3,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 38.7
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Disciplined perimeter containment (39.1% run-stop rate) prevents explosive outside gains.",
+        "Coverage efficiency (Allowed Pass EPA: -0.13) with tight underneath zone brackets."
+      ],
+      "weaknesses": [
+        "Susceptible to intermediate crossing concepts and mesh routes across zone seam transitions."
+      ]
+    }
+  },
+  "LA": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 59,
+        "run_plays": 53,
+        "pass_pct": 52.7,
+        "run_pct": 47.3
+      },
+      "defense": {
+        "pass_plays_faced": 68,
+        "run_plays_faced": 51,
+        "pass_pct_faced": 57.1,
+        "run_pct_faced": 42.9
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "D.Adams",
+        "targets": 16,
+        "receptions": 11,
+        "yards": 221,
+        "catch_rate": 68.8,
+        "directions": {
+          "left": 9,
+          "middle": 1,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 5,
+          "short_mid": 1,
+          "short_right": 2,
+          "deep_left": 4,
+          "deep_mid": 0,
+          "deep_right": 4
+        }
+      },
+      {
+        "name": "T.Ferguson",
+        "targets": 10,
+        "receptions": 6,
+        "yards": 54,
+        "catch_rate": 60.0,
+        "directions": {
+          "left": 3,
+          "middle": 3,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 3,
+          "short_mid": 3,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "P.Nacua",
+        "targets": 9,
+        "receptions": 5,
+        "yards": 74,
+        "catch_rate": 55.6,
+        "directions": {
+          "left": 4,
+          "middle": 2,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 3,
+          "short_mid": 0,
+          "short_right": 0,
+          "deep_left": 1,
+          "deep_mid": 2,
+          "deep_right": 2
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "K.Williams",
+        "carries": 23,
+        "yards": 126,
+        "ypc": 5.48,
+        "directions": {
+          "left": 2,
+          "middle": 16,
+          "right": 5
+        }
+      },
+      {
+        "name": "B.Corum",
+        "carries": 22,
+        "yards": 133,
+        "ypc": 6.05,
+        "directions": {
+          "left": 9,
+          "middle": 6,
+          "right": 7
+        }
+      },
+      {
+        "name": "R.Rivers",
+        "carries": 5,
+        "yards": 19,
+        "ypc": 3.8,
+        "directions": {
+          "left": 1,
+          "middle": 0,
+          "right": 4
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 21.5,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 35.5
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Disciplined perimeter containment (43.1% run-stop rate) prevents explosive outside gains.",
+        "Coverage efficiency (Allowed Pass EPA: -0.19) with tight underneath zone brackets."
+      ],
+      "weaknesses": [
+        "Susceptible to intermediate crossing concepts and mesh routes across zone seam transitions."
+      ]
+    }
+  },
+  "LAC": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 60,
+        "run_plays": 53,
+        "pass_pct": 53.1,
+        "run_pct": 46.9
+      },
+      "defense": {
+        "pass_plays_faced": 69,
+        "run_plays_faced": 57,
+        "pass_pct_faced": 54.8,
+        "run_pct_faced": 45.2
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "Q.Johnston",
+        "targets": 11,
+        "receptions": 3,
+        "yards": 24,
+        "catch_rate": 27.3,
+        "directions": {
+          "left": 5,
+          "middle": 2,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 3,
+          "short_mid": 1,
+          "short_right": 2,
+          "deep_left": 2,
+          "deep_mid": 0,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "L.McConkey",
+        "targets": 10,
+        "receptions": 8,
+        "yards": 117,
+        "catch_rate": 80.0,
+        "directions": {
+          "left": 3,
+          "middle": 4,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 2,
+          "short_right": 3,
+          "deep_left": 1,
+          "deep_mid": 2,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "T.Harris",
+        "targets": 9,
+        "receptions": 4,
+        "yards": 73,
+        "catch_rate": 44.4,
+        "directions": {
+          "left": 3,
+          "middle": 2,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 1,
+          "short_mid": 2,
+          "short_right": 2,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 2
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "O.Hampton",
+        "carries": 35,
+        "yards": 137,
+        "ypc": 3.91,
+        "directions": {
+          "left": 9,
+          "middle": 16,
+          "right": 10
+        }
+      },
+      {
+        "name": "K.Mitchell",
+        "carries": 9,
+        "yards": 33,
+        "ypc": 3.67,
+        "directions": {
+          "left": 6,
+          "middle": 0,
+          "right": 3
+        }
+      },
+      {
+        "name": "J.Herbert",
+        "carries": 8,
+        "yards": 31,
+        "ypc": 3.88,
+        "directions": {
+          "left": 1,
+          "middle": 2,
+          "right": 3
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 26.3,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 30.7
+      },
+      "coverages": {
+        "Cover 1": 28,
+        "Cover 3": 38,
+        "Cover 2": 11,
+        "Cover 4 (Quarters)": 15,
+        "Cover 6": 8
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.18); front seven reliably controls line of scrimmage."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+0.27 EPA allowed on deep throws) when safeties trigger downhill."
+      ]
+    }
+  },
+  "LV": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 61,
+        "run_plays": 60,
+        "pass_pct": 50.4,
+        "run_pct": 49.6
+      },
+      "defense": {
+        "pass_plays_faced": 62,
+        "run_plays_faced": 50,
+        "pass_pct_faced": 55.4,
+        "run_pct_faced": 44.6
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "A.Jeanty",
+        "targets": 13,
+        "receptions": 10,
+        "yards": 60,
+        "catch_rate": 76.9,
+        "directions": {
+          "left": 8,
+          "middle": 4,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 5,
+          "short_left": 5,
+          "short_mid": 3,
+          "short_right": 0,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "M.Mayer",
+        "targets": 11,
+        "receptions": 9,
+        "yards": 55,
+        "catch_rate": 81.8,
+        "directions": {
+          "left": 3,
+          "middle": 3,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 2,
+          "short_mid": 2,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "T.Tucker",
+        "targets": 11,
+        "receptions": 7,
+        "yards": 146,
+        "catch_rate": 63.6,
+        "directions": {
+          "left": 6,
+          "middle": 2,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 1,
+          "short_mid": 2,
+          "short_right": 3,
+          "deep_left": 5,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "A.Jeanty",
+        "carries": 44,
+        "yards": 150,
+        "ypc": 3.41,
+        "directions": {
+          "left": 10,
+          "middle": 19,
+          "right": 15
+        }
+      },
+      {
+        "name": "M.Washington",
+        "carries": 10,
+        "yards": 48,
+        "ypc": 4.8,
+        "directions": {
+          "left": 7,
+          "middle": 1,
+          "right": 2
+        }
+      },
+      {
+        "name": "K.Cousins",
+        "carries": 3,
+        "yards": 4,
+        "ypc": 1.33,
+        "directions": {
+          "left": 1,
+          "middle": 1,
+          "right": 1
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 19.0,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 38.0
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.36); front seven reliably controls line of scrimmage.",
+        "Pass rush generates a 29.0% pressure rate, disrupting pocket timing on intermediate drops."
+      ],
+      "weaknesses": [
+        "Susceptible to intermediate crossing concepts and mesh routes across zone seam transitions."
+      ]
+    }
+  },
+  "MIA": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 59,
+        "run_plays": 47,
+        "pass_pct": 55.7,
+        "run_pct": 44.3
+      },
+      "defense": {
+        "pass_plays_faced": 52,
+        "run_plays_faced": 59,
+        "pass_pct_faced": 46.8,
+        "run_pct_faced": 53.2
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "M.Washington",
+        "targets": 13,
+        "receptions": 7,
+        "yards": 96,
+        "catch_rate": 53.8,
+        "directions": {
+          "left": 5,
+          "middle": 2,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 2,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 2,
+          "deep_mid": 2,
+          "deep_right": 3
+        }
+      },
+      {
+        "name": "D.Achane",
+        "targets": 11,
+        "receptions": 7,
+        "yards": 49,
+        "catch_rate": 63.6,
+        "directions": {
+          "left": 6,
+          "middle": 2,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 4,
+          "short_left": 3,
+          "short_mid": 1,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "C.Douglas",
+        "targets": 10,
+        "receptions": 7,
+        "yards": 113,
+        "catch_rate": 70.0,
+        "directions": {
+          "left": 1,
+          "middle": 4,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 1,
+          "short_mid": 1,
+          "short_right": 4,
+          "deep_left": 0,
+          "deep_mid": 2,
+          "deep_right": 1
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "D.Achane",
+        "carries": 31,
+        "yards": 110,
+        "ypc": 3.55,
+        "directions": {
+          "left": 9,
+          "middle": 15,
+          "right": 7
+        }
+      },
+      {
+        "name": "M.Willis",
+        "carries": 8,
+        "yards": 45,
+        "ypc": 5.62,
+        "directions": {
+          "left": 3,
+          "middle": 2,
+          "right": 3
+        }
+      },
+      {
+        "name": "J.Wright",
+        "carries": 3,
+        "yards": 10,
+        "ypc": 3.33,
+        "directions": {
+          "left": 0,
+          "middle": 2,
+          "right": 1
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 15.5,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 41.5
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.08); front seven reliably controls line of scrimmage."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+0.52 EPA allowed on deep throws) when safeties trigger downhill.",
+        "Vulnerable to downhill power-gap runs (only 35.6% stop rate against interior carries)."
+      ]
+    }
+  },
+  "MIN": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 51,
+        "run_plays": 59,
+        "pass_pct": 46.4,
+        "run_pct": 53.6
+      },
+      "defense": {
+        "pass_plays_faced": 84,
+        "run_plays_faced": 52,
+        "pass_pct_faced": 61.8,
+        "run_pct_faced": 38.2
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "J.Jefferson",
+        "targets": 16,
+        "receptions": 11,
+        "yards": 147,
+        "catch_rate": 68.8,
+        "directions": {
+          "left": 5,
+          "middle": 4,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 4,
+          "short_left": 1,
+          "short_mid": 2,
+          "short_right": 2,
+          "deep_left": 3,
+          "deep_mid": 2,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "T.Hockenson",
+        "targets": 9,
+        "receptions": 7,
+        "yards": 65,
+        "catch_rate": 77.8,
+        "directions": {
+          "left": 2,
+          "middle": 4,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 1,
+          "short_mid": 3,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "J.Addison",
+        "targets": 7,
+        "receptions": 2,
+        "yards": 21,
+        "catch_rate": 28.6,
+        "directions": {
+          "left": 3,
+          "middle": 2,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 2,
+          "short_right": 1,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "A.Jones",
+        "carries": 35,
+        "yards": 145,
+        "ypc": 4.14,
+        "directions": {
+          "left": 12,
+          "middle": 5,
+          "right": 18
+        }
+      },
+      {
+        "name": "J.Mason",
+        "carries": 15,
+        "yards": 59,
+        "ypc": 3.93,
+        "directions": {
+          "left": 4,
+          "middle": 3,
+          "right": 8
+        }
+      },
+      {
+        "name": "C.Wentz",
+        "carries": 5,
+        "yards": 8,
+        "ypc": 1.6,
+        "directions": {
+          "left": 0,
+          "middle": 2,
+          "right": 2
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 27.0,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 30.0
+      },
+      "coverages": {
+        "Cover 1": 28,
+        "Cover 3": 38,
+        "Cover 2": 11,
+        "Cover 4 (Quarters)": 15,
+        "Cover 6": 8
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.27); front seven reliably controls line of scrimmage.",
+        "Pass rush generates a 29.8% pressure rate, disrupting pocket timing on intermediate drops."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+0.9 EPA allowed on deep throws) when safeties trigger downhill."
+      ]
+    }
+  },
+  "NE": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 61,
+        "run_plays": 57,
+        "pass_pct": 51.7,
+        "run_pct": 48.3
+      },
+      "defense": {
+        "pass_plays_faced": 70,
+        "run_plays_faced": 44,
+        "pass_pct_faced": 61.4,
+        "run_pct_faced": 38.6
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "D.Douglas",
+        "targets": 9,
+        "receptions": 6,
+        "yards": 29,
+        "catch_rate": 66.7,
+        "directions": {
+          "left": 3,
+          "middle": 3,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "H.Henry",
+        "targets": 8,
+        "receptions": 6,
+        "yards": 66,
+        "catch_rate": 75.0,
+        "directions": {
+          "left": 5,
+          "middle": 1,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 3,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 2,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "R.Stevenson",
+        "targets": 8,
+        "receptions": 6,
+        "yards": 47,
+        "catch_rate": 75.0,
+        "directions": {
+          "left": 6,
+          "middle": 1,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 5,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 0,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "R.Stevenson",
+        "carries": 24,
+        "yards": 94,
+        "ypc": 3.92,
+        "directions": {
+          "left": 10,
+          "middle": 10,
+          "right": 4
+        }
+      },
+      {
+        "name": "T.Henderson",
+        "carries": 16,
+        "yards": 76,
+        "ypc": 4.75,
+        "directions": {
+          "left": 3,
+          "middle": 6,
+          "right": 7
+        }
+      },
+      {
+        "name": "D.Maye",
+        "carries": 9,
+        "yards": 67,
+        "ypc": 7.44,
+        "directions": {
+          "left": 2,
+          "middle": 3,
+          "right": 4
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 16.1,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 40.9
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.07); front seven reliably controls line of scrimmage.",
+        "Coverage efficiency (Allowed Pass EPA: -0.25) with tight underneath zone brackets."
+      ],
+      "weaknesses": [
+        "Susceptible to intermediate crossing concepts and mesh routes across zone seam transitions.",
+        "Vulnerable to downhill power-gap runs (only 36.4% stop rate against interior carries)."
+      ]
+    }
+  },
+  "NO": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 98,
+        "run_plays": 52,
+        "pass_pct": 65.3,
+        "run_pct": 34.7
+      },
+      "defense": {
+        "pass_plays_faced": 73,
+        "run_plays_faced": 55,
+        "pass_pct_faced": 57.0,
+        "run_pct_faced": 43.0
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "C.Olave",
+        "targets": 23,
+        "receptions": 18,
+        "yards": 268,
+        "catch_rate": 78.3,
+        "directions": {
+          "left": 10,
+          "middle": 5,
+          "right": 8
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 5,
+          "short_mid": 2,
+          "short_right": 6,
+          "deep_left": 4,
+          "deep_mid": 3,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "D.Vele",
+        "targets": 16,
+        "receptions": 12,
+        "yards": 133,
+        "catch_rate": 75.0,
+        "directions": {
+          "left": 9,
+          "middle": 2,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 9,
+          "short_mid": 1,
+          "short_right": 4,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "J.Johnson",
+        "targets": 11,
+        "receptions": 7,
+        "yards": 120,
+        "catch_rate": 63.6,
+        "directions": {
+          "left": 4,
+          "middle": 2,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 4,
+          "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "T.Etienne",
+        "carries": 18,
+        "yards": 73,
+        "ypc": 4.06,
+        "directions": {
+          "left": 5,
+          "middle": 5,
+          "right": 7
+        }
+      },
+      {
+        "name": "T.Shough",
+        "carries": 12,
+        "yards": 32,
+        "ypc": 2.67,
+        "directions": {
+          "left": 2,
+          "middle": 4,
+          "right": 4
+        }
+      },
+      {
+        "name": "K.Miller",
+        "carries": 9,
+        "yards": 30,
+        "ypc": 3.33,
+        "directions": {
+          "left": 3,
+          "middle": 5,
+          "right": 1
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 16.1,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 40.9
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Disciplined perimeter containment (36.4% run-stop rate) prevents explosive outside gains."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+0.47 EPA allowed on deep throws) when safeties trigger downhill.",
+        "Vulnerable to downhill power-gap runs (only 36.4% stop rate against interior carries)."
+      ]
+    }
+  },
+  "NYG": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 65,
+        "run_plays": 55,
+        "pass_pct": 54.2,
+        "run_pct": 45.8
+      },
+      "defense": {
+        "pass_plays_faced": 65,
+        "run_plays_faced": 43,
+        "pass_pct_faced": 60.2,
+        "run_pct_faced": 39.8
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "I.Likely",
+        "targets": 18,
+        "receptions": 13,
+        "yards": 111,
+        "catch_rate": 72.2,
+        "directions": {
+          "left": 4,
+          "middle": 8,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 4,
+          "short_mid": 7,
+          "short_right": 4,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "M.Nabers",
+        "targets": 13,
+        "receptions": 7,
+        "yards": 70,
+        "catch_rate": 53.8,
+        "directions": {
+          "left": 7,
+          "middle": 3,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 4,
+          "short_mid": 1,
+          "short_right": 2,
+          "deep_left": 2,
+          "deep_mid": 2,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "M.Fields",
+        "targets": 10,
+        "receptions": 4,
+        "yards": 55,
+        "catch_rate": 40.0,
+        "directions": {
+          "left": 5,
+          "middle": 3,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 4,
+          "short_mid": 1,
+          "short_right": 0,
+          "deep_left": 1,
+          "deep_mid": 2,
+          "deep_right": 2
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "C.Skattebo",
+        "carries": 30,
+        "yards": 117,
+        "ypc": 3.9,
+        "directions": {
+          "left": 15,
+          "middle": 7,
+          "right": 8
+        }
+      },
+      {
+        "name": "D.Singletary",
+        "carries": 9,
+        "yards": 25,
+        "ypc": 2.78,
+        "directions": {
+          "left": 4,
+          "middle": 4,
+          "right": 1
+        }
+      },
+      {
+        "name": "J.Dart",
+        "carries": 8,
+        "yards": 59,
+        "ypc": 7.38,
+        "directions": {
+          "left": 3,
+          "middle": 2,
+          "right": 3
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 12.0,
+        "neutral_box_pct": 40.3,
+        "light_box_pct": 47.7
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Disciplined perimeter containment (27.9% run-stop rate) prevents explosive outside gains."
+      ],
+      "weaknesses": [
+        "Susceptible to intermediate crossing concepts and mesh routes across zone seam transitions.",
+        "Vulnerable to downhill power-gap runs (only 27.9% stop rate against interior carries)."
+      ]
+    }
+  },
+  "NYJ": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 68,
+        "run_plays": 63,
+        "pass_pct": 51.9,
+        "run_pct": 48.1
+      },
+      "defense": {
+        "pass_plays_faced": 67,
+        "run_plays_faced": 32,
+        "pass_pct_faced": 67.7,
+        "run_pct_faced": 32.3
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "A.Mitchell",
+        "targets": 15,
+        "receptions": 9,
+        "yards": 123,
+        "catch_rate": 60.0,
+        "directions": {
+          "left": 8,
+          "middle": 1,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 4,
+          "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 3,
+          "deep_mid": 0,
+          "deep_right": 3
+        }
+      },
+      {
+        "name": "G.Wilson",
+        "targets": 14,
+        "receptions": 11,
+        "yards": 136,
+        "catch_rate": 78.6,
+        "directions": {
+          "left": 5,
+          "middle": 3,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 2,
+          "short_right": 4,
+          "deep_left": 3,
+          "deep_mid": 1,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "B.Hall",
+        "targets": 7,
+        "receptions": 7,
+        "yards": 79,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "B.Hall",
+        "carries": 38,
+        "yards": 131,
+        "ypc": 3.45,
+        "directions": {
+          "left": 13,
+          "middle": 11,
+          "right": 14
+        }
+      },
+      {
+        "name": "B.Allen",
+        "carries": 15,
+        "yards": 47,
+        "ypc": 3.13,
+        "directions": {
+          "left": 5,
+          "middle": 1,
+          "right": 9
+        }
+      },
+      {
+        "name": "G.Smith",
+        "carries": 8,
+        "yards": 27,
+        "ypc": 3.38,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 2
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 17.0,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 40.0
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.2); front seven reliably controls line of scrimmage.",
+        "Coverage efficiency (Allowed Pass EPA: -0.16) with tight underneath zone brackets."
+      ],
+      "weaknesses": [
+        "Susceptible to intermediate crossing concepts and mesh routes across zone seam transitions.",
+        "Vulnerable to downhill power-gap runs (only 37.5% stop rate against interior carries)."
+      ]
+    }
+  },
+  "PHI": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 68,
+        "run_plays": 55,
+        "pass_pct": 55.3,
+        "run_pct": 44.7
+      },
+      "defense": {
+        "pass_plays_faced": 58,
+        "run_plays_faced": 61,
+        "pass_pct_faced": 48.7,
+        "run_pct_faced": 51.3
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "D.Smith",
+        "targets": 19,
+        "receptions": 13,
+        "yards": 170,
+        "catch_rate": 68.4,
+        "directions": {
+          "left": 7,
+          "middle": 2,
+          "right": 10
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 3,
+          "short_mid": 1,
+          "short_right": 6,
+          "deep_left": 4,
+          "deep_mid": 0,
+          "deep_right": 4
+        }
+      },
+      {
+        "name": "D.Wicks",
+        "targets": 10,
+        "receptions": 7,
+        "yards": 147,
+        "catch_rate": 70.0,
+        "directions": {
+          "left": 4,
+          "middle": 2,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 4,
+          "short_mid": 1,
+          "short_right": 0,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 4
+        }
+      },
+      {
+        "name": "D.Goedert",
+        "targets": 7,
+        "receptions": 5,
+        "yards": 81,
+        "catch_rate": 71.4,
+        "directions": {
+          "left": 3,
+          "middle": 2,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 3,
+          "short_mid": 2,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "S.Barkley",
+        "carries": 19,
+        "yards": 92,
+        "ypc": 4.84,
+        "directions": {
+          "left": 5,
+          "middle": 3,
+          "right": 11
+        }
+      },
+      {
+        "name": "T.Bigsby",
+        "carries": 14,
+        "yards": 36,
+        "ypc": 2.57,
+        "directions": {
+          "left": 3,
+          "middle": 4,
+          "right": 7
+        }
+      },
+      {
+        "name": "J.Hurts",
+        "carries": 10,
+        "yards": 64,
+        "ypc": 6.4,
+        "directions": {
+          "left": 2,
+          "middle": 4,
+          "right": 4
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 22.4,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 34.6
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Disciplined perimeter containment (44.3% run-stop rate) prevents explosive outside gains."
+      ],
+      "weaknesses": [
+        "Susceptible to intermediate crossing concepts and mesh routes across zone seam transitions."
+      ]
+    }
+  },
+  "PIT": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 87,
+        "run_plays": 41,
+        "pass_pct": 68.0,
+        "run_pct": 32.0
+      },
+      "defense": {
+        "pass_plays_faced": 51,
+        "run_plays_faced": 57,
+        "pass_pct_faced": 47.2,
+        "run_pct_faced": 52.8
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "D.Metcalf",
+        "targets": 19,
+        "receptions": 8,
+        "yards": 67,
+        "catch_rate": 42.1,
+        "directions": {
+          "left": 9,
+          "middle": 2,
+          "right": 8
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 3,
+          "short_mid": 1,
+          "short_right": 6,
+          "deep_left": 4,
+          "deep_mid": 1,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "R.Wilson",
+        "targets": 12,
+        "receptions": 8,
+        "yards": 54,
+        "catch_rate": 66.7,
+        "directions": {
+          "left": 5,
+          "middle": 1,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 1,
+          "short_mid": 0,
+          "short_right": 3,
+          "deep_left": 2,
+          "deep_mid": 1,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "P.Freiermuth",
+        "targets": 10,
+        "receptions": 9,
+        "yards": 78,
+        "catch_rate": 90.0,
+        "directions": {
+          "left": 5,
+          "middle": 2,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 2,
+          "short_mid": 2,
+          "short_right": 2,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "J.Warren",
+        "carries": 21,
+        "yards": 89,
+        "ypc": 4.24,
+        "directions": {
+          "left": 12,
+          "middle": 4,
+          "right": 5
+        }
+      },
+      {
+        "name": "R.Dowdle",
+        "carries": 15,
+        "yards": 37,
+        "ypc": 2.47,
+        "directions": {
+          "left": 5,
+          "middle": 5,
+          "right": 5
+        }
+      },
+      {
+        "name": "T.Homer",
+        "carries": 2,
+        "yards": 16,
+        "ypc": 8.0,
+        "directions": {
+          "left": 0,
+          "middle": 1,
+          "right": 1
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 23.5,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 33.5
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Disciplined perimeter containment (45.6% run-stop rate) prevents explosive outside gains.",
+        "Coverage efficiency (Allowed Pass EPA: -0.41) with tight underneath zone brackets."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+0.43 EPA allowed on deep throws) when safeties trigger downhill."
+      ]
+    }
+  },
+  "SEA": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 53,
+        "run_plays": 61,
+        "pass_pct": 46.5,
+        "run_pct": 53.5
+      },
+      "defense": {
+        "pass_plays_faced": 66,
+        "run_plays_faced": 48,
+        "pass_pct_faced": 57.9,
+        "run_pct_faced": 42.1
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "J.Smith-Njigba",
+        "targets": 22,
+        "receptions": 17,
+        "yards": 277,
+        "catch_rate": 77.3,
+        "directions": {
+          "left": 8,
+          "middle": 5,
+          "right": 9
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 7,
+          "short_mid": 4,
+          "short_right": 6,
+          "deep_left": 1,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "R.Shaheed",
+        "targets": 9,
+        "receptions": 4,
+        "yards": 39,
+        "catch_rate": 44.4,
+        "directions": {
+          "left": 2,
+          "middle": 4,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 1,
+          "short_mid": 3,
+          "short_right": 1,
+          "deep_left": 1,
+          "deep_mid": 1,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "C.Kupp",
+        "targets": 5,
+        "receptions": 4,
+        "yards": 55,
+        "catch_rate": 80.0,
+        "directions": {
+          "left": 1,
+          "middle": 1,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 0,
+          "short_mid": 1,
+          "short_right": 2,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "J.Price",
+        "carries": 23,
+        "yards": 104,
+        "ypc": 4.52,
+        "directions": {
+          "left": 7,
+          "middle": 6,
+          "right": 10
+        }
+      },
+      {
+        "name": "E.Wilson",
+        "carries": 23,
+        "yards": 95,
+        "ypc": 4.13,
+        "directions": {
+          "left": 5,
+          "middle": 10,
+          "right": 8
+        }
+      },
+      {
+        "name": "G.Holani",
+        "carries": 12,
+        "yards": 42,
+        "ypc": 3.5,
+        "directions": {
+          "left": 3,
+          "middle": 5,
+          "right": 4
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 20.4,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 36.6
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.21); front seven reliably controls line of scrimmage.",
+        "Coverage efficiency (Allowed Pass EPA: -0.19) with tight underneath zone brackets."
+      ],
+      "weaknesses": [
+        "Susceptible to intermediate crossing concepts and mesh routes across zone seam transitions."
+      ]
+    }
+  },
+  "SF": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 56,
+        "run_plays": 55,
+        "pass_pct": 50.5,
+        "run_pct": 49.5
+      },
+      "defense": {
+        "pass_plays_faced": 55,
+        "run_plays_faced": 57,
+        "pass_pct_faced": 49.1,
+        "run_pct_faced": 50.9
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "C.McCaffrey",
+        "targets": 12,
+        "receptions": 9,
+        "yards": 63,
+        "catch_rate": 75.0,
+        "directions": {
+          "left": 5,
+          "middle": 2,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 5,
+          "short_left": 4,
+          "short_mid": 1,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "D.Samuel",
+        "targets": 11,
+        "receptions": 9,
+        "yards": 79,
+        "catch_rate": 81.8,
+        "directions": {
+          "left": 4,
+          "middle": 2,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 5,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "M.Evans",
+        "targets": 10,
+        "receptions": 9,
+        "yards": 103,
+        "catch_rate": 90.0,
+        "directions": {
+          "left": 7,
+          "middle": 2,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 6,
+          "short_mid": 2,
+          "short_right": 1,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "K.Black",
+        "carries": 21,
+        "yards": 90,
+        "ypc": 4.29,
+        "directions": {
+          "left": 9,
+          "middle": 6,
+          "right": 6
+        }
+      },
+      {
+        "name": "C.McCaffrey",
+        "carries": 20,
+        "yards": 91,
+        "ypc": 4.55,
+        "directions": {
+          "left": 4,
+          "middle": 5,
+          "right": 11
+        }
+      },
+      {
+        "name": "B.Purdy",
+        "carries": 8,
+        "yards": 59,
+        "ypc": 7.38,
+        "directions": {
+          "left": 4,
+          "middle": 4,
+          "right": 0
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 19.3,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 37.7
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.15); front seven reliably controls line of scrimmage.",
+        "Coverage efficiency (Allowed Pass EPA: -0.12) with tight underneath zone brackets."
+      ],
+      "weaknesses": [
+        "Susceptible to intermediate crossing concepts and mesh routes across zone seam transitions."
+      ]
+    }
+  },
+  "TB": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 69,
+        "run_plays": 44,
+        "pass_pct": 61.1,
+        "run_pct": 38.9
+      },
+      "defense": {
+        "pass_plays_faced": 68,
+        "run_plays_faced": 47,
+        "pass_pct_faced": 59.1,
+        "run_pct_faced": 40.9
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "E.Egbuka",
+        "targets": 11,
+        "receptions": 8,
+        "yards": 79,
+        "catch_rate": 72.7,
+        "directions": {
+          "left": 5,
+          "middle": 3,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 3,
+          "short_mid": 2,
+          "short_right": 3,
+          "deep_left": 2,
+          "deep_mid": 1,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "B.Irving",
+        "targets": 11,
+        "receptions": 11,
+        "yards": 49,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 7,
+          "middle": 0,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 9,
+          "short_left": 1,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "C.Otton",
+        "targets": 11,
+        "receptions": 8,
+        "yards": 64,
+        "catch_rate": 72.7,
+        "directions": {
+          "left": 2,
+          "middle": 2,
+          "right": 7
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 1,
+          "short_mid": 2,
+          "short_right": 4,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "B.Irving",
+        "carries": 25,
+        "yards": 134,
+        "ypc": 5.36,
+        "directions": {
+          "left": 15,
+          "middle": 4,
+          "right": 6
+        }
+      },
+      {
+        "name": "B.Mayfield",
+        "carries": 8,
+        "yards": 60,
+        "ypc": 7.5,
+        "directions": {
+          "left": 1,
+          "middle": 4,
+          "right": 3
+        }
+      },
+      {
+        "name": "K.Gainwell",
+        "carries": 7,
+        "yards": 25,
+        "ypc": 3.57,
+        "directions": {
+          "left": 3,
+          "middle": 0,
+          "right": 4
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 24.4,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 32.6
+      },
+      "coverages": {
+        "Cover 1": 28,
+        "Cover 3": 38,
+        "Cover 2": 11,
+        "Cover 4 (Quarters)": 15,
+        "Cover 6": 8
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.16); front seven reliably controls line of scrimmage."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+0.71 EPA allowed on deep throws) when safeties trigger downhill."
+      ]
+    }
+  },
+  "TEN": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 57,
+        "run_plays": 43,
+        "pass_pct": 57.0,
+        "run_pct": 43.0
+      },
+      "defense": {
+        "pass_plays_faced": 64,
+        "run_plays_faced": 68,
+        "pass_pct_faced": 48.5,
+        "run_pct_faced": 51.5
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "C.Tate",
+        "targets": 11,
+        "receptions": 7,
+        "yards": 65,
+        "catch_rate": 63.6,
+        "directions": {
+          "left": 5,
+          "middle": 3,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 3,
+          "short_mid": 2,
+          "short_right": 2,
+          "deep_left": 2,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "W.Robinson",
+        "targets": 7,
+        "receptions": 6,
+        "yards": 47,
+        "catch_rate": 85.7,
+        "directions": {
+          "left": 2,
+          "middle": 1,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "G.Helm",
+        "targets": 7,
+        "receptions": 6,
+        "yards": 41,
+        "catch_rate": 85.7,
+        "directions": {
+          "left": 3,
+          "middle": 2,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 2,
+          "short_mid": 2,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "T.Pollard",
+        "carries": 21,
+        "yards": 99,
+        "ypc": 4.71,
+        "directions": {
+          "left": 10,
+          "middle": 3,
+          "right": 8
+        }
+      },
+      {
+        "name": "T.Spears",
+        "carries": 10,
+        "yards": 53,
+        "ypc": 5.3,
+        "directions": {
+          "left": 5,
+          "middle": 4,
+          "right": 1
+        }
+      },
+      {
+        "name": "C.Ward",
+        "carries": 8,
+        "yards": 28,
+        "ypc": 3.5,
+        "directions": {
+          "left": 2,
+          "middle": 2,
+          "right": 4
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 15.2,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 41.8
+      },
+      "coverages": {
+        "Cover 1": 17,
+        "Cover 3": 29,
+        "Cover 2": 19,
+        "Cover 4 (Quarters)": 23,
+        "Cover 6": 12
+      },
+      "strengths": [
+        "Interior run defense (Allowed Run EPA: -0.08); front seven reliably controls line of scrimmage."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+1.27 EPA allowed on deep throws) when safeties trigger downhill.",
+        "Vulnerable to downhill power-gap runs (only 35.3% stop rate against interior carries)."
+      ]
+    }
+  },
+  "WAS": {
+    "play_calling": {
+      "offense": {
+        "pass_plays": 71,
+        "run_plays": 64,
+        "pass_pct": 52.6,
+        "run_pct": 47.4
+      },
+      "defense": {
+        "pass_plays_faced": 61,
+        "run_plays_faced": 44,
+        "pass_pct_faced": 58.1,
+        "run_pct_faced": 41.9
+      }
+    },
+    "top_receivers": [
+      {
+        "name": "S.Diggs",
+        "targets": 15,
+        "receptions": 9,
+        "yards": 102,
+        "catch_rate": 60.0,
+        "directions": {
+          "left": 4,
+          "middle": 5,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 4,
+          "short_mid": 5,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 3
+        }
+      },
+      {
+        "name": "T.McLaurin",
+        "targets": 13,
+        "receptions": 4,
+        "yards": 64,
+        "catch_rate": 30.8,
+        "directions": {
+          "left": 3,
+          "middle": 2,
+          "right": 8
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 1,
+          "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 2,
+          "deep_mid": 1,
+          "deep_right": 4
+        }
+      },
+      {
+        "name": "D.Brown",
+        "targets": 8,
+        "receptions": 4,
+        "yards": 21,
+        "catch_rate": 50.0,
+        "directions": {
+          "left": 4,
+          "middle": 1,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 1,
+          "short_mid": 1,
+          "short_right": 1,
+          "deep_left": 2,
+          "deep_mid": 0,
+          "deep_right": 2
+        }
+      }
+    ],
+    "top_rushers": [
+      {
+        "name": "J.Croskey-Merritt",
+        "carries": 28,
+        "yards": 106,
+        "ypc": 3.79,
+        "directions": {
+          "left": 13,
+          "middle": 6,
+          "right": 9
+        }
+      },
+      {
+        "name": "R.White",
+        "carries": 14,
+        "yards": 65,
+        "ypc": 4.64,
+        "directions": {
+          "left": 3,
+          "middle": 7,
+          "right": 4
+        }
+      },
+      {
+        "name": "J.Daniels",
+        "carries": 12,
+        "yards": 100,
+        "ypc": 8.33,
+        "directions": {
+          "left": 2,
+          "middle": 1,
+          "right": 8
+        }
+      }
+    ],
+    "defense_scouting": {
+      "box_presence": {
+        "heavy_box_pct": 25.2,
+        "neutral_box_pct": 43.0,
+        "light_box_pct": 31.8
+      },
+      "coverages": {
+        "Cover 1": 28,
+        "Cover 3": 38,
+        "Cover 2": 11,
+        "Cover 4 (Quarters)": 15,
+        "Cover 6": 8
+      },
+      "strengths": [
+        "Disciplined perimeter containment (47.7% run-stop rate) prevents explosive outside gains."
+      ],
+      "weaknesses": [
+        "Vulnerable to deep vertical shots (+1.59 EPA allowed on deep throws) when safeties trigger downhill."
+      ]
+    }
+  }
+}
