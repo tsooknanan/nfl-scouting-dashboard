@@ -77,6 +77,48 @@
           "deep_mid": 0,
           "deep_right": 0
         }
+      },
+      {
+        "name": "J.Love",
+        "targets": 7,
+        "receptions": 5,
+        "yards": 25,
+        "catch_rate": 71.4,
+        "directions": {
+          "left": 1,
+          "middle": 2,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 0,
+          "short_mid": 2,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "M.Harrison",
+        "targets": 4,
+        "receptions": 1,
+        "yards": 33,
+        "catch_rate": 25.0,
+        "directions": {
+          "left": 2,
+          "middle": 1,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 0,
+          "short_mid": 1,
+          "short_right": 1,
+          "deep_left": 2,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
       }
     ],
     "top_rushers": [
@@ -212,6 +254,48 @@
           "deep_left": 1,
           "deep_mid": 1,
           "deep_right": 2
+        }
+      },
+      {
+        "name": "K.Pitts",
+        "targets": 4,
+        "receptions": 1,
+        "yards": 15,
+        "catch_rate": 25.0,
+        "directions": {
+          "left": 0,
+          "middle": 0,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 0,
+          "short_mid": 0,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "O.Zaccheaus",
+        "targets": 4,
+        "receptions": 2,
+        "yards": 8,
+        "catch_rate": 50.0,
+        "directions": {
+          "left": 2,
+          "middle": 2,
+          "right": 0
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 2,
+          "short_right": 0,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
         }
       }
     ],
@@ -351,6 +435,48 @@
           "deep_mid": 1,
           "deep_right": 1
         }
+      },
+      {
+        "name": "C.Moore",
+        "targets": 5,
+        "receptions": 2,
+        "yards": 59,
+        "catch_rate": 40.0,
+        "directions": {
+          "left": 3,
+          "middle": 2,
+          "right": 0
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 0,
+          "short_mid": 1,
+          "short_right": 0,
+          "deep_left": 3,
+          "deep_mid": 1,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "D.Henry",
+        "targets": 4,
+        "receptions": 4,
+        "yards": 38,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 1,
+          "middle": 2,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 4,
+          "short_left": 0,
+          "short_mid": 0,
+          "short_right": 0,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
       }
     ],
     "top_rushers": [
@@ -483,6 +609,48 @@
           "behind_los": 0,
           "short_left": 3,
           "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "D.Moore",
+        "targets": 8,
+        "receptions": 5,
+        "yards": 100,
+        "catch_rate": 62.5,
+        "directions": {
+          "left": 2,
+          "middle": 2,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 0,
+          "short_mid": 1,
+          "short_right": 2,
+          "deep_left": 2,
+          "deep_mid": 1,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "J.Cook",
+        "targets": 7,
+        "receptions": 4,
+        "yards": 16,
+        "catch_rate": 57.1,
+        "directions": {
+          "left": 3,
+          "middle": 0,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 1,
+          "short_mid": 0,
           "short_right": 3,
           "deep_left": 0,
           "deep_mid": 0,
@@ -624,6 +792,48 @@
           "deep_mid": 0,
           "deep_right": 0
         }
+      },
+      {
+        "name": "X.Legette",
+        "targets": 6,
+        "receptions": 2,
+        "yards": 64,
+        "catch_rate": 33.3,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 1,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "C.Hubbard",
+        "targets": 5,
+        "receptions": 5,
+        "yards": 49,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 2,
+          "middle": 1,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 1,
+          "short_mid": 1,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
       }
     ],
     "top_rushers": [
@@ -762,6 +972,48 @@
           "deep_mid": 0,
           "deep_right": 3
         }
+      },
+      {
+        "name": "D.Swift",
+        "targets": 6,
+        "receptions": 6,
+        "yards": 64,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 2,
+          "middle": 1,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 4,
+          "short_left": 0,
+          "short_mid": 1,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "C.Loveland",
+        "targets": 5,
+        "receptions": 1,
+        "yards": 3,
+        "catch_rate": 20.0,
+        "directions": {
+          "left": 1,
+          "middle": 3,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 0,
+          "short_mid": 2,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 0
+        }
       }
     ],
     "top_rushers": [
@@ -895,6 +1147,48 @@
           "short_left": 1,
           "short_mid": 0,
           "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "M.Gesicki",
+        "targets": 7,
+        "receptions": 5,
+        "yards": 78,
+        "catch_rate": 71.4,
+        "directions": {
+          "left": 4,
+          "middle": 0,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 3,
+          "short_mid": 0,
+          "short_right": 2,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "A.Iosivas",
+        "targets": 4,
+        "receptions": 3,
+        "yards": 19,
+        "catch_rate": 75.0,
+        "directions": {
+          "left": 1,
+          "middle": 1,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 1,
+          "short_mid": 1,
+          "short_right": 2,
           "deep_left": 0,
           "deep_mid": 0,
           "deep_right": 0
@@ -1036,6 +1330,48 @@
           "deep_mid": 0,
           "deep_right": 0
         }
+      },
+      {
+        "name": "Q.Judkins",
+        "targets": 7,
+        "receptions": 7,
+        "yards": 44,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 4,
+          "middle": 2,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "J.Jeudy",
+        "targets": 5,
+        "receptions": 2,
+        "yards": 26,
+        "catch_rate": 40.0,
+        "directions": {
+          "left": 4,
+          "middle": 0,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 4,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
       }
     ],
     "top_rushers": [
@@ -1173,6 +1509,48 @@
           "deep_mid": 0,
           "deep_right": 0
         }
+      },
+      {
+        "name": "J.Williams",
+        "targets": 9,
+        "receptions": 8,
+        "yards": 51,
+        "catch_rate": 88.9,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 6,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 0,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "J.Ferguson",
+        "targets": 6,
+        "receptions": 6,
+        "yards": 49,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 0,
+          "middle": 2,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 0,
+          "short_mid": 2,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
       }
     ],
     "top_rushers": [
@@ -1306,6 +1684,48 @@
           "short_left": 2,
           "short_mid": 1,
           "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "E.Engram",
+        "targets": 6,
+        "receptions": 5,
+        "yards": 60,
+        "catch_rate": 83.3,
+        "directions": {
+          "left": 5,
+          "middle": 1,
+          "right": 0
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 3,
+          "short_mid": 0,
+          "short_right": 0,
+          "deep_left": 2,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "R.Harvey",
+        "targets": 4,
+        "receptions": 4,
+        "yards": 23,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 2,
+          "middle": 0,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 4,
+          "short_left": 0,
+          "short_mid": 0,
+          "short_right": 0,
           "deep_left": 0,
           "deep_mid": 0,
           "deep_right": 0
@@ -1447,6 +1867,48 @@
           "deep_mid": 0,
           "deep_right": 0
         }
+      },
+      {
+        "name": "J.Williams",
+        "targets": 13,
+        "receptions": 6,
+        "yards": 78,
+        "catch_rate": 46.2,
+        "directions": {
+          "left": 7,
+          "middle": 1,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 3,
+          "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 4,
+          "deep_mid": 0,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "I.TeSlaa",
+        "targets": 6,
+        "receptions": 2,
+        "yards": 26,
+        "catch_rate": 33.3,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 1,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
       }
     ],
     "top_rushers": [
@@ -1582,6 +2044,48 @@
           "deep_left": 1,
           "deep_mid": 1,
           "deep_right": 0
+        }
+      },
+      {
+        "name": "J.Reed",
+        "targets": 8,
+        "receptions": 4,
+        "yards": 24,
+        "catch_rate": 50.0,
+        "directions": {
+          "left": 4,
+          "middle": 2,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 2,
+          "short_mid": 2,
+          "short_right": 2,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "S.Moore",
+        "targets": 4,
+        "receptions": 2,
+        "yards": 6,
+        "catch_rate": 50.0,
+        "directions": {
+          "left": 1,
+          "middle": 1,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 1,
+          "short_mid": 1,
+          "short_right": 0,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 1
         }
       }
     ],
@@ -1719,6 +2223,48 @@
           "deep_mid": 0,
           "deep_right": 2
         }
+      },
+      {
+        "name": "J.Wayne",
+        "targets": 8,
+        "receptions": 3,
+        "yards": 45,
+        "catch_rate": 37.5,
+        "directions": {
+          "left": 2,
+          "middle": 4,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 4,
+          "short_right": 0,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "K.Boutte",
+        "targets": 7,
+        "receptions": 4,
+        "yards": 58,
+        "catch_rate": 57.1,
+        "directions": {
+          "left": 2,
+          "middle": 2,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 0,
+          "short_mid": 2,
+          "short_right": 2,
+          "deep_left": 2,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
       }
     ],
     "top_rushers": [
@@ -1855,6 +2401,48 @@
           "deep_mid": 0,
           "deep_right": 1
         }
+      },
+      {
+        "name": "J.Taylor",
+        "targets": 8,
+        "receptions": 7,
+        "yards": 63,
+        "catch_rate": 87.5,
+        "directions": {
+          "left": 4,
+          "middle": 0,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 3,
+          "short_mid": 0,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "A.Pierce",
+        "targets": 7,
+        "receptions": 5,
+        "yards": 72,
+        "catch_rate": 71.4,
+        "directions": {
+          "left": 2,
+          "middle": 4,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 3,
+          "deep_right": 0
+        }
       }
     ],
     "top_rushers": [
@@ -1988,6 +2576,48 @@
           "short_left": 2,
           "short_mid": 2,
           "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "J.Meyers",
+        "targets": 3,
+        "receptions": 3,
+        "yards": 68,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 3,
+          "middle": 0,
+          "right": 0
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 0,
+          "short_mid": 0,
+          "short_right": 0,
+          "deep_left": 2,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "B.Tuten",
+        "targets": 3,
+        "receptions": 3,
+        "yards": 19,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 2,
+          "middle": 0,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 0,
+          "short_mid": 0,
+          "short_right": 0,
           "deep_left": 0,
           "deep_mid": 0,
           "deep_right": 0
@@ -2129,6 +2759,48 @@
           "deep_mid": 1,
           "deep_right": 1
         }
+      },
+      {
+        "name": "R.Rice",
+        "targets": 8,
+        "receptions": 6,
+        "yards": 102,
+        "catch_rate": 75.0,
+        "directions": {
+          "left": 2,
+          "middle": 2,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "T.Thornton",
+        "targets": 5,
+        "receptions": 4,
+        "yards": 86,
+        "catch_rate": 80.0,
+        "directions": {
+          "left": 1,
+          "middle": 1,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 0,
+          "short_mid": 1,
+          "short_right": 1,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 2
+        }
       }
     ],
     "top_rushers": [
@@ -2265,6 +2937,48 @@
           "deep_left": 1,
           "deep_mid": 2,
           "deep_right": 2
+        }
+      },
+      {
+        "name": "K.Williams",
+        "targets": 5,
+        "receptions": 5,
+        "yards": 36,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 4,
+          "middle": 0,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 3,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "C.Parkinson",
+        "targets": 4,
+        "receptions": 3,
+        "yards": 21,
+        "catch_rate": 75.0,
+        "directions": {
+          "left": 2,
+          "middle": 0,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 1,
+          "short_mid": 0,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
         }
       }
     ],
@@ -2403,6 +3117,48 @@
           "deep_mid": 0,
           "deep_right": 2
         }
+      },
+      {
+        "name": "D.Njoku",
+        "targets": 8,
+        "receptions": 6,
+        "yards": 67,
+        "catch_rate": 75.0,
+        "directions": {
+          "left": 1,
+          "middle": 2,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 0,
+          "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "O.Gadsden",
+        "targets": 4,
+        "receptions": 4,
+        "yards": 50,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 2,
+          "middle": 0,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 0,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
       }
     ],
     "top_rushers": [
@@ -2536,6 +3292,48 @@
           "short_mid": 2,
           "short_right": 3,
           "deep_left": 5,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "J.Nailor",
+        "targets": 8,
+        "receptions": 4,
+        "yards": 36,
+        "catch_rate": 50.0,
+        "directions": {
+          "left": 2,
+          "middle": 2,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "J.Bech",
+        "targets": 6,
+        "receptions": 5,
+        "yards": 48,
+        "catch_rate": 83.3,
+        "directions": {
+          "left": 4,
+          "middle": 2,
+          "right": 0
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 3,
+          "short_mid": 2,
+          "short_right": 0,
+          "deep_left": 1,
           "deep_mid": 0,
           "deep_right": 0
         }
@@ -2676,6 +3474,48 @@
           "deep_mid": 2,
           "deep_right": 1
         }
+      },
+      {
+        "name": "G.Dulcich",
+        "targets": 5,
+        "receptions": 4,
+        "yards": 35,
+        "catch_rate": 80.0,
+        "directions": {
+          "left": 2,
+          "middle": 0,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 0,
+          "short_mid": 0,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "C.Bell",
+        "targets": 3,
+        "receptions": 1,
+        "yards": 25,
+        "catch_rate": 33.3,
+        "directions": {
+          "left": 0,
+          "middle": 1,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 0,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
       }
     ],
     "top_rushers": [
@@ -2813,6 +3653,48 @@
           "deep_mid": 0,
           "deep_right": 1
         }
+      },
+      {
+        "name": "J.Oliver",
+        "targets": 5,
+        "receptions": 3,
+        "yards": 46,
+        "catch_rate": 60.0,
+        "directions": {
+          "left": 1,
+          "middle": 1,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 1,
+          "short_mid": 1,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "D.Dallas",
+        "targets": 2,
+        "receptions": 2,
+        "yards": 13,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 1,
+          "middle": 0,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 0,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
       }
     ],
     "top_rushers": [
@@ -2949,6 +3831,48 @@
           "deep_left": 0,
           "deep_mid": 0,
           "deep_right": 0
+        }
+      },
+      {
+        "name": "M.Hollins",
+        "targets": 7,
+        "receptions": 6,
+        "yards": 69,
+        "catch_rate": 85.7,
+        "directions": {
+          "left": 2,
+          "middle": 1,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 0,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "R.Doubs",
+        "targets": 7,
+        "receptions": 3,
+        "yards": 96,
+        "catch_rate": 42.9,
+        "directions": {
+          "left": 3,
+          "middle": 0,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 1,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 3
         }
       }
     ],
@@ -3088,6 +4012,48 @@
           "deep_mid": 1,
           "deep_right": 1
         }
+      },
+      {
+        "name": "T.Etienne",
+        "targets": 11,
+        "receptions": 9,
+        "yards": 38,
+        "catch_rate": 81.8,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 7
+        },
+        "field_zones": {
+          "behind_los": 6,
+          "short_left": 1,
+          "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "N.Fant",
+        "targets": 8,
+        "receptions": 4,
+        "yards": 33,
+        "catch_rate": 50.0,
+        "directions": {
+          "left": 2,
+          "middle": 1,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 5,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
       }
     ],
     "top_rushers": [
@@ -3225,6 +4191,48 @@
           "deep_mid": 2,
           "deep_right": 2
         }
+      },
+      {
+        "name": "D.Mooney",
+        "targets": 5,
+        "receptions": 4,
+        "yards": 75,
+        "catch_rate": 80.0,
+        "directions": {
+          "left": 2,
+          "middle": 2,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 1,
+          "short_mid": 2,
+          "short_right": 0,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "T.Johnson",
+        "targets": 5,
+        "receptions": 1,
+        "yards": 9,
+        "catch_rate": 20.0,
+        "directions": {
+          "left": 4,
+          "middle": 0,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 2,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
       }
     ],
     "top_rushers": [
@@ -3357,6 +4365,48 @@
           "behind_los": 2,
           "short_left": 2,
           "short_mid": 1,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "I.Williams",
+        "targets": 7,
+        "receptions": 7,
+        "yards": 41,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 2,
+          "middle": 0,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 2,
+          "short_mid": 0,
+          "short_right": 3,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "K.Sadiq",
+        "targets": 6,
+        "receptions": 5,
+        "yards": 38,
+        "catch_rate": 83.3,
+        "directions": {
+          "left": 3,
+          "middle": 0,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 2,
+          "short_mid": 0,
           "short_right": 2,
           "deep_left": 0,
           "deep_mid": 0,
@@ -3500,6 +4550,48 @@
           "deep_mid": 0,
           "deep_right": 1
         }
+      },
+      {
+        "name": "M.Lemon",
+        "targets": 5,
+        "receptions": 4,
+        "yards": 9,
+        "catch_rate": 80.0,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 1
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 0,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "S.Barkley",
+        "targets": 4,
+        "receptions": 2,
+        "yards": 8,
+        "catch_rate": 50.0,
+        "directions": {
+          "left": 1,
+          "middle": 0,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 1,
+          "short_mid": 0,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
       }
     ],
     "top_rushers": [
@@ -3635,6 +4727,48 @@
           "deep_left": 1,
           "deep_mid": 0,
           "deep_right": 1
+        }
+      },
+      {
+        "name": "J.Warren",
+        "targets": 10,
+        "receptions": 7,
+        "yards": 61,
+        "catch_rate": 70.0,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 6
+        },
+        "field_zones": {
+          "behind_los": 7,
+          "short_left": 2,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "G.Bernard",
+        "targets": 8,
+        "receptions": 4,
+        "yards": 35,
+        "catch_rate": 50.0,
+        "directions": {
+          "left": 3,
+          "middle": 3,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 1,
+          "short_mid": 2,
+          "short_right": 1,
+          "deep_left": 1,
+          "deep_mid": 1,
+          "deep_right": 0
         }
       }
     ],
@@ -3773,6 +4907,48 @@
           "deep_mid": 0,
           "deep_right": 1
         }
+      },
+      {
+        "name": "J.Price",
+        "targets": 4,
+        "receptions": 3,
+        "yards": 14,
+        "catch_rate": 75.0,
+        "directions": {
+          "left": 1,
+          "middle": 0,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 0,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "A.Barner",
+        "targets": 3,
+        "receptions": 3,
+        "yards": 21,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 1,
+          "middle": 0,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 1,
+          "short_left": 0,
+          "short_mid": 0,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
       }
     ],
     "top_rushers": [
@@ -3908,6 +5084,48 @@
           "short_right": 1,
           "deep_left": 1,
           "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "G.Kittle",
+        "targets": 9,
+        "receptions": 6,
+        "yards": 92,
+        "catch_rate": 66.7,
+        "directions": {
+          "left": 3,
+          "middle": 3,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 2,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 0,
+          "deep_left": 0,
+          "deep_mid": 2,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "D.Robinson",
+        "targets": 6,
+        "receptions": 5,
+        "yards": 84,
+        "catch_rate": 83.3,
+        "directions": {
+          "left": 2,
+          "middle": 1,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 1,
+          "short_mid": 0,
+          "short_right": 3,
+          "deep_left": 1,
+          "deep_mid": 1,
           "deep_right": 0
         }
       }
@@ -4047,6 +5265,48 @@
           "deep_mid": 0,
           "deep_right": 1
         }
+      },
+      {
+        "name": "T.Hurst",
+        "targets": 10,
+        "receptions": 5,
+        "yards": 63,
+        "catch_rate": 50.0,
+        "directions": {
+          "left": 7,
+          "middle": 1,
+          "right": 2
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 3,
+          "short_mid": 0,
+          "short_right": 1,
+          "deep_left": 4,
+          "deep_mid": 1,
+          "deep_right": 1
+        }
+      },
+      {
+        "name": "C.Godwin",
+        "targets": 7,
+        "receptions": 7,
+        "yards": 86,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 2,
+          "middle": 2,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 3,
+          "short_left": 1,
+          "short_mid": 2,
+          "short_right": 0,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 1
+        }
       }
     ],
     "top_rushers": [
@@ -4178,6 +5438,48 @@
           "behind_los": 1,
           "short_left": 2,
           "short_mid": 2,
+          "short_right": 2,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "E.Ayomanor",
+        "targets": 6,
+        "receptions": 3,
+        "yards": 80,
+        "catch_rate": 50.0,
+        "directions": {
+          "left": 2,
+          "middle": 1,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 2
+        }
+      },
+      {
+        "name": "T.Spears",
+        "targets": 6,
+        "receptions": 4,
+        "yards": 41,
+        "catch_rate": 66.7,
+        "directions": {
+          "left": 1,
+          "middle": 0,
+          "right": 5
+        },
+        "field_zones": {
+          "behind_los": 4,
+          "short_left": 0,
+          "short_mid": 0,
           "short_right": 2,
           "deep_left": 0,
           "deep_mid": 0,
@@ -4319,6 +5621,48 @@
           "deep_left": 2,
           "deep_mid": 0,
           "deep_right": 2
+        }
+      },
+      {
+        "name": "R.White",
+        "targets": 8,
+        "receptions": 8,
+        "yards": 45,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 4
+        },
+        "field_zones": {
+          "behind_los": 4,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 1,
+          "deep_left": 0,
+          "deep_mid": 0,
+          "deep_right": 0
+        }
+      },
+      {
+        "name": "A.Williams",
+        "targets": 7,
+        "receptions": 7,
+        "yards": 88,
+        "catch_rate": 100.0,
+        "directions": {
+          "left": 3,
+          "middle": 1,
+          "right": 3
+        },
+        "field_zones": {
+          "behind_los": 0,
+          "short_left": 2,
+          "short_mid": 1,
+          "short_right": 3,
+          "deep_left": 1,
+          "deep_mid": 0,
+          "deep_right": 0
         }
       }
     ],

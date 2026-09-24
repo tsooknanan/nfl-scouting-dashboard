@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "c:\\Users\\Tyler\\Desktop\\nfl-scouting-dashboard\\venv\\Scripts\\python.exe"
+    "python.pythonPath": "c:\\Users\\Tyler\\Desktop\\nfl-scouting-dashboard\\venv\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true
 }

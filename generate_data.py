@@ -48,10 +48,10 @@ for team in teams:
     def_run = int((def_plays['play_type'] == 'run').sum())
     def_total = max(def_pass + def_run, 1)
 
-    # 2. Top 3 Receivers
+    # 2. Top 5 Receivers
     rec_plays = off_plays[off_plays['play_type'] == 'pass']
     target_counts = rec_plays['receiver_player_name'].value_counts()
-    top_3_receivers_names = target_counts.head(3).index.tolist()
+    top_3_receivers_names = target_counts.head(5).index.tolist()
 
     receivers_data = []
     for player in top_3_receivers_names:
