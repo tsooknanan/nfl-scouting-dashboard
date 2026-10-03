@@ -5,13 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NFL Tendency & Scouting Dashboard</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Styled football turf lines */
+    .field-turf {
+      background: linear-gradient(180deg, #092c19 0%, #0d3820 50%, #092c19 100%);
+      background-size: 100% 40px;
+    }
+    .hash-marks {
+      background-image: repeating-linear-gradient(
+        to bottom,
+        transparent,
+        transparent 8px,
+        rgba(255, 255, 255, 0.25) 8px,
+        rgba(255, 255, 255, 0.25) 10px
+      );
+    }
+  </style>
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen antialiased">
   <div class="max-w-7xl mx-auto px-4 py-8">
     <header class="flex flex-col md:flex-row justify-between items-start md:items-center pb-6 border-b border-slate-800 gap-4">
       <div>
         <h1 class="text-3xl font-extrabold tracking-tight text-white">NFL Tendency & Scouting Hub</h1>
-        <p class="text-slate-400 text-sm mt-1">Play calls, top skill-position directional matrices, and defensive coverage profiles</p>
+        <p class="text-slate-400 text-sm mt-1">Play calls, visual field heat maps, rushing distance vectors, and coverage profiles</p>
       </div>
       <div class="flex items-center gap-3">
         <label for="teamSelect" class="text-sm font-medium text-slate-400">Select Team:</label>
@@ -21,7 +37,8 @@
       </div>
     </header>
 
-    <main id="dashboard" class="mt-8 space-y-8">
+    <main id="dashboard" class="mt-8 space-y-10">
+      <!-- Section 1: Play Calling Tendencies -->
       <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div class="bg-slate-900 border border-slate-800 rounded-xl p-6">
           <h2 class="text-lg font-bold text-emerald-400 mb-4">Offensive Play Call Tendencies</h2>
@@ -72,18 +89,39 @@
         </div>
       </section>
 
+      <!-- Section 2: Top 3 Receivers & Field Heat Map -->
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-6">
-        <h2 class="text-xl font-bold text-white mb-2">Top 5 Pass Catchers: Direction & Field Zones</h2>
-        <p class="text-sm text-slate-400 mb-6">Target share, catch efficiency, and visual target distribution by field depth</p>
-        <div id="receiversContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4"></div>
+        <div class="flex flex-col md:flex-row md:items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-2">
+          <div>
+            <h2 class="text-xl font-bold text-white">Top 3 Pass Catchers: Target & Catch Heat Maps</h2>
+            <p class="text-sm text-slate-400">Target frequency and catch rates visualized across authentic field depth zones</p>
+          </div>
+          <div class="flex items-center gap-2 text-xs text-slate-400">
+            <span>Heat Intensity:</span>
+            <span class="px-2 py-0.5 rounded bg-emerald-950/60 border border-emerald-800 text-slate-400">Low</span>
+            <span class="px-2 py-0.5 rounded bg-cyan-500/30 border border-cyan-500/50 text-cyan-200">Moderate</span>
+            <span class="px-2 py-0.5 rounded bg-amber-500/40 border border-amber-500/60 text-amber-200">High</span>
+            <span class="px-2 py-0.5 rounded bg-rose-600/50 border border-rose-500 text-white font-bold">Heavy</span>
+          </div>
+        </div>
+        <div id="receiversContainer" class="grid grid-cols-1 lg:grid-cols-3 gap-6"></div>
       </section>
 
+      <!-- Section 3: Top 3 Rushers & Field Carry Heat Map -->
       <section class="bg-slate-900 border border-slate-800 rounded-xl p-6">
-        <h2 class="text-xl font-bold text-white mb-2">Top 3 Rushers: Volume & Gap Distribution</h2>
-        <p class="text-sm text-slate-400 mb-6">Carry workload, efficiency, and directional rush preference</p>
+        <div class="flex flex-col md:flex-row md:items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-2">
+          <div>
+            <h2 class="text-xl font-bold text-white">Top 3 Rushers: Carry Heat Maps & Distance Vectors</h2>
+            <p class="text-sm text-slate-400">Where carries are directed and how far they go, featuring <b>Yards Before Contact (YBC)</b></p>
+          </div>
+          <div class="text-xs text-slate-400">
+            <span>Progress bar displays average depth per direction</span>
+          </div>
+        </div>
         <div id="rushersContainer" class="grid grid-cols-1 lg:grid-cols-3 gap-6"></div>
       </section>
 
+      <!-- Section 4: Defensive Schemes & Scouting Breakdown -->
       <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div class="bg-slate-900 border border-slate-800 rounded-xl p-6">
           <h2 class="text-lg font-bold text-cyan-400 mb-4">Defensive Alignment & Coverage Mix</h2>
@@ -119,7 +157,7 @@
             </div>
           </div>
           <div class="mt-6 p-4 rounded-lg bg-slate-950/60 border border-slate-800 text-xs text-slate-400">
-            Rule of thumb: High single-high (Cover 1 / Cover 3) rates correlate with heavy box presences.
+            Rule of thumb: High single-high (Cover 1 / Cover 3) rates correlate with heavy front box counts.
           </div>
         </div>
       </section>
@@ -128,6 +166,14 @@
 
   <script>
     let nflData = {};
+
+    function getHeatColor(count, maxCount) {
+      if (!count || count === 0) return 'bg-emerald-950/30 border-emerald-900/40 text-slate-400';
+      const ratio = count / Math.max(maxCount, 1);
+      if (ratio > 0.6) return 'bg-rose-600/50 border-rose-400 text-white font-bold shadow-lg shadow-rose-900/40';
+      if (ratio > 0.3) return 'bg-amber-500/40 border-amber-400/70 text-amber-100 font-semibold';
+      return 'bg-cyan-500/30 border-cyan-400/50 text-cyan-100';
+    }
 
     async function init() {
       try {
@@ -150,7 +196,7 @@
         document.getElementById('dashboard').innerHTML = `
           <div class="p-8 text-center bg-rose-950/40 border border-rose-800 rounded-xl text-rose-200">
             <h3 class="text-lg font-bold mb-2">Data File Not Found</h3>
-            <p class="text-sm">Please run <code>python generate_data.py</code> to generate the dataset at <code>data/nfl_data.json</code>.</p>
+            <p class="text-sm">Run <code>python generate_data.py</code> to generate the dataset at <code>data/nfl_data.json</code>.</p>
           </div>
         `;
       }
@@ -160,6 +206,7 @@
       const d = nflData[team];
       if (!d) return;
 
+      // 1. Play Calling
       document.getElementById('offPassPct').textContent = `${d.play_calling.offense.pass_pct}%`;
       document.getElementById('offPassPlays').textContent = d.play_calling.offense.pass_plays;
       document.getElementById('offPassBar').style.width = `${d.play_calling.offense.pass_pct}%`;
@@ -176,55 +223,210 @@
       document.getElementById('defRunPlays').textContent = d.play_calling.defense.run_plays_faced;
       document.getElementById('defRunBar').style.width = `${d.play_calling.defense.run_pct_faced}%`;
 
+      // 2. Receivers (Football Field Heat Map + Stats Below)
       const recContainer = document.getElementById('receiversContainer');
-      recContainer.innerHTML = d.top_receivers.map(r => `
-        <div class="bg-slate-950/60 border border-slate-800 rounded-lg p-4">
-          <div class="flex justify-between items-baseline mb-2">
-            <h3 class="font-bold text-white text-base">${r.name}</h3>
-            <span class="text-xs text-slate-400 font-medium">${r.catch_rate}% Catch</span>
-          </div>
-          <div class="text-xs text-slate-400 mb-4 flex gap-4">
-            <span>Tgt: <b class="text-slate-200">${r.targets}</b></span>
-            <span>Rec: <b class="text-slate-200">${r.receptions}</b></span>
-            <span>Yds: <b class="text-slate-200">${r.yards}</b></span>
-          </div>
-          <div class="border border-slate-800 rounded-md overflow-hidden text-center text-[10px]">
-            <div class="bg-slate-900 py-1 text-slate-400 border-b border-slate-800 font-medium">Deep (&gt;15 yds)</div>
-            <div class="grid grid-cols-3 border-b border-slate-800 divide-x divide-slate-800 bg-slate-950">
-              <div class="py-2"><span class="text-slate-500">L:</span> <b class="text-emerald-400">${r.field_zones.deep_left}</b></div>
-              <div class="py-2"><span class="text-slate-500">M:</span> <b class="text-emerald-400">${r.field_zones.deep_mid}</b></div>
-              <div class="py-2"><span class="text-slate-500">R:</span> <b class="text-emerald-400">${r.field_zones.deep_right}</b></div>
-            </div>
-            <div class="bg-slate-900 py-1 text-slate-400 border-b border-slate-800 font-medium">Short (0-15 yds)</div>
-            <div class="grid grid-cols-3 border-b border-slate-800 divide-x divide-slate-800 bg-slate-950">
-              <div class="py-2"><span class="text-slate-500">L:</span> <b class="text-cyan-400">${r.field_zones.short_left}</b></div>
-              <div class="py-2"><span class="text-slate-500">M:</span> <b class="text-cyan-400">${r.field_zones.short_mid}</b></div>
-              <div class="py-2"><span class="text-slate-500">R:</span> <b class="text-cyan-400">${r.field_zones.short_right}</b></div>
-            </div>
-            <div class="bg-slate-900 py-1 text-slate-400 font-medium">Behind LOS: <b class="text-slate-200">${r.field_zones.behind_los}</b></div>
-          </div>
-        </div>
-      `).join('');
+      recContainer.innerHTML = d.top_receivers.map(r => {
+        const maxTgts = Math.max(...Object.values(r.field_zones).map(z => z.targets), 1);
+        const z = r.field_zones;
 
+        return `
+          <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-4 flex flex-col justify-between">
+            <div class="flex justify-between items-baseline mb-3">
+              <h3 class="font-bold text-white text-base">${r.name}</h3>
+              <span class="text-xs text-emerald-400 font-semibold">${r.catch_rate}% Catch Rate</span>
+            </div>
+
+            <!-- Authentic Football Field Visual Aid -->
+            <div class="relative field-turf border-2 border-emerald-700/60 rounded-lg p-2 overflow-hidden shadow-inner text-[10px]">
+              <!-- Hash Marks & Yard Line Indicators -->
+              <div class="absolute inset-y-0 left-1/3 w-px bg-white/10 pointer-events-none"></div>
+              <div class="absolute inset-y-0 right-1/3 w-px bg-white/10 pointer-events-none"></div>
+
+              <!-- Zone 1: Deep (>20 Yards) -->
+              <div class="text-[9px] text-white/50 font-bold mb-1 flex justify-between px-1">
+                <span>DEEP (>20 YARDS)</span>
+                <span>ENDZONE &uarr;</span>
+              </div>
+              <div class="grid grid-cols-3 gap-1 mb-2">
+                <div class="border rounded p-1.5 text-center ${getHeatColor(z.deep_left.targets, maxTgts)}">
+                  <div class="text-[8px] opacity-75">Left</div>
+                  <div><b>${z.deep_left.targets}</b> tgts</div>
+                  <div class="text-[9px] text-white/80">${z.deep_left.pct}%</div>
+                </div>
+                <div class="border rounded p-1.5 text-center ${getHeatColor(z.deep_mid.targets, maxTgts)}">
+                  <div class="text-[8px] opacity-75">Middle</div>
+                  <div><b>${z.deep_mid.targets}</b> tgts</div>
+                  <div class="text-[9px] text-white/80">${z.deep_mid.pct}%</div>
+                </div>
+                <div class="border rounded p-1.5 text-center ${getHeatColor(z.deep_right.targets, maxTgts)}">
+                  <div class="text-[8px] opacity-75">Right</div>
+                  <div><b>${z.deep_right.targets}</b> tgts</div>
+                  <div class="text-[9px] text-white/80">${z.deep_right.pct}%</div>
+                </div>
+              </div>
+
+              <!-- 20-Yard Line Divider -->
+              <div class="border-b border-dashed border-white/30 my-1.5 relative">
+                <span class="absolute right-1 -top-2.5 text-[8px] text-white/40">20 YD</span>
+              </div>
+
+              <!-- Zone 2: Intermediate (10-20 Yards) -->
+              <div class="grid grid-cols-3 gap-1 mb-2">
+                <div class="border rounded p-1.5 text-center ${getHeatColor(z.med_left.targets, maxTgts)}">
+                  <div><b>${z.med_left.targets}</b> tgts</div>
+                  <div class="text-[9px] text-white/80">${z.med_left.pct}%</div>
+                </div>
+                <div class="border rounded p-1.5 text-center ${getHeatColor(z.med_mid.targets, maxTgts)}">
+                  <div><b>${z.med_mid.targets}</b> tgts</div>
+                  <div class="text-[9px] text-white/80">${z.med_mid.pct}%</div>
+                </div>
+                <div class="border rounded p-1.5 text-center ${getHeatColor(z.med_right.targets, maxTgts)}">
+                  <div><b>${z.med_right.targets}</b> tgts</div>
+                  <div class="text-[9px] text-white/80">${z.med_right.pct}%</div>
+                </div>
+              </div>
+
+              <!-- 10-Yard Line Divider -->
+              <div class="border-b border-dashed border-white/30 my-1.5 relative">
+                <span class="absolute right-1 -top-2.5 text-[8px] text-white/40">10 YD</span>
+              </div>
+
+              <!-- Zone 3: Short (0-10 Yards) -->
+              <div class="grid grid-cols-3 gap-1 mb-2">
+                <div class="border rounded p-1.5 text-center ${getHeatColor(z.short_left.targets, maxTgts)}">
+                  <div><b>${z.short_left.targets}</b> tgts</div>
+                  <div class="text-[9px] text-white/80">${z.short_left.pct}%</div>
+                </div>
+                <div class="border rounded p-1.5 text-center ${getHeatColor(z.short_mid.targets, maxTgts)}">
+                  <div><b>${z.short_mid.targets}</b> tgts</div>
+                  <div class="text-[9px] text-white/80">${z.short_mid.pct}%</div>
+                </div>
+                <div class="border rounded p-1.5 text-center ${getHeatColor(z.short_right.targets, maxTgts)}">
+                  <div><b>${z.short_right.targets}</b> tgts</div>
+                  <div class="text-[9px] text-white/80">${z.short_right.pct}%</div>
+                </div>
+              </div>
+
+              <!-- Line of Scrimmage (LOS) -->
+              <div class="border-b-2 border-blue-400/80 my-1.5 relative">
+                <span class="absolute left-1 -top-2.5 text-[8px] font-bold text-blue-300">LINE OF SCRIMMAGE (0 YD)</span>
+              </div>
+
+              <!-- Zone 4: Behind LOS -->
+              <div class="border rounded p-1 text-center ${getHeatColor(z.behind_los.targets, maxTgts)}">
+                <span>Screens / Behind LOS: <b>${z.behind_los.targets}</b> targets (${z.behind_los.pct}% catch)</span>
+              </div>
+            </div>
+
+            <!-- Stats Listed Directly Below -->
+            <div class="mt-4 pt-3 border-t border-slate-800 grid grid-cols-3 gap-2 text-center text-xs">
+              <div class="bg-slate-900 p-2 rounded border border-slate-800">
+                <span class="block text-[10px] text-slate-400">Targets / Rec</span>
+                <span class="font-bold text-white">${r.targets} / ${r.receptions}</span>
+              </div>
+              <div class="bg-slate-900 p-2 rounded border border-slate-800">
+                <span class="block text-[10px] text-slate-400">Receiving Yds</span>
+                <span class="font-bold text-emerald-400">${r.yards} yds</span>
+              </div>
+              <div class="bg-slate-900 p-2 rounded border border-slate-800">
+                <span class="block text-[10px] text-slate-400">Avg Depth (aDOT)</span>
+                <span class="font-bold text-cyan-400">${r.adot} yds</span>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // 3. Rushers (Football Field Carry Heat Map + YBC + Distance Vectors)
       const rushContainer = document.getElementById('rushersContainer');
-      rushContainer.innerHTML = d.top_rushers.map(rb => `
-        <div class="bg-slate-950/60 border border-slate-800 rounded-lg p-4">
-          <div class="flex justify-between items-baseline mb-2">
-            <h3 class="font-bold text-white text-base">${rb.name}</h3>
-            <span class="text-xs text-amber-400 font-bold">${rb.ypc} YPC</span>
-          </div>
-          <div class="text-xs text-slate-400 mb-4 flex gap-4">
-            <span>Carries: <b class="text-slate-200">${rb.carries}</b></span>
-            <span>Yds: <b class="text-slate-200">${rb.yards}</b></span>
-          </div>
-          <div class="space-y-1.5 text-xs">
-            <div class="flex justify-between text-slate-400"><span>Left:</span><b class="text-slate-200">${rb.directions.left} carries</b></div>
-            <div class="flex justify-between text-slate-400"><span>Middle:</span><b class="text-slate-200">${rb.directions.middle} carries</b></div>
-            <div class="flex justify-between text-slate-400"><span>Right:</span><b class="text-slate-200">${rb.directions.right} carries</b></div>
-          </div>
-        </div>
-      `).join('');
+      rushContainer.innerHTML = d.top_rushers.map(rb => {
+        const dirs = rb.directions;
+        const maxCarries = Math.max(dirs.left.carries, dirs.middle.carries, dirs.right.carries, 1);
 
+        return `
+          <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-4 flex flex-col justify-between">
+            <div class="flex justify-between items-baseline mb-3">
+              <h3 class="font-bold text-white text-base">${rb.name}</h3>
+              <span class="text-xs text-amber-400 font-bold">${rb.ypc} Yards/Carry</span>
+            </div>
+
+            <!-- Authentic Football Field Rushing Lanes -->
+            <div class="relative field-turf border-2 border-emerald-700/60 rounded-lg p-2.5 overflow-hidden shadow-inner text-[10px]">
+              <div class="text-[9px] text-white/50 font-bold mb-1 flex justify-between px-1">
+                <span>DOWNHILL RUSH LANES</span>
+                <span>DOWNFIELD &uarr;</span>
+              </div>
+
+              <!-- 3 Directional Lanes Over Field -->
+              <div class="grid grid-cols-3 gap-1.5 mb-2">
+                <!-- Left Lane -->
+                <div class="border rounded p-2 text-center flex flex-col justify-between ${getHeatColor(dirs.left.carries, maxCarries)}">
+                  <div class="font-bold text-[9px]">LEFT GAP</div>
+                  <div class="my-1">
+                    <span class="text-sm font-extrabold">${dirs.left.carries}</span>
+                    <span class="text-[9px] block">carries</span>
+                  </div>
+                  <!-- Distance progression bar -->
+                  <div class="w-full bg-black/40 rounded-full h-1.5 my-1">
+                    <div class="bg-white rounded-full h-1.5" style="width: ${Math.min(dirs.left.ypc * 15, 100)}%"></div>
+                  </div>
+                  <div class="text-[9px] text-white/90 font-medium">${dirs.left.ypc} YPC &bull; Long ${dirs.left.max}y</div>
+                </div>
+
+                <!-- Middle Lane -->
+                <div class="border rounded p-2 text-center flex flex-col justify-between ${getHeatColor(dirs.middle.carries, maxCarries)}">
+                  <div class="font-bold text-[9px]">MIDDLE / A-GAPS</div>
+                  <div class="my-1">
+                    <span class="text-sm font-extrabold">${dirs.middle.carries}</span>
+                    <span class="text-[9px] block">carries</span>
+                  </div>
+                  <!-- Distance progression bar -->
+                  <div class="w-full bg-black/40 rounded-full h-1.5 my-1">
+                    <div class="bg-white rounded-full h-1.5" style="width: ${Math.min(dirs.middle.ypc * 15, 100)}%"></div>
+                  </div>
+                  <div class="text-[9px] text-white/90 font-medium">${dirs.middle.ypc} YPC &bull; Long ${dirs.middle.max}y</div>
+                </div>
+
+                <!-- Right Lane -->
+                <div class="border rounded p-2 text-center flex flex-col justify-between ${getHeatColor(dirs.right.carries, maxCarries)}">
+                  <div class="font-bold text-[9px]">RIGHT GAP</div>
+                  <div class="my-1">
+                    <span class="text-sm font-extrabold">${dirs.right.carries}</span>
+                    <span class="text-[9px] block">carries</span>
+                  </div>
+                  <!-- Distance progression bar -->
+                  <div class="w-full bg-black/40 rounded-full h-1.5 my-1">
+                    <div class="bg-white rounded-full h-1.5" style="width: ${Math.min(dirs.right.ypc * 15, 100)}%"></div>
+                  </div>
+                  <div class="text-[9px] text-white/90 font-medium">${dirs.right.ypc} YPC &bull; Long ${dirs.right.max}y</div>
+                </div>
+              </div>
+
+              <!-- Line of Scrimmage (LOS) -->
+              <div class="border-b-2 border-blue-400/80 my-1 relative">
+                <span class="absolute left-1 -top-2.5 text-[8px] font-bold text-blue-300">LINE OF SCRIMMAGE</span>
+              </div>
+              <div class="text-center text-[9px] text-slate-400 pt-1">
+                Explosive Runs (10+ yds): <b>${dirs.left.explosive + dirs.middle.explosive + dirs.right.explosive}</b>
+              </div>
+            </div>
+
+            <!-- Stats Listed Directly Below (Featuring Yards Before Contact) -->
+            <div class="mt-4 pt-3 border-t border-slate-800 grid grid-cols-2 gap-2 text-xs">
+              <div class="bg-slate-900 p-2 rounded border border-slate-800">
+                <span class="block text-[10px] text-slate-400">Carries & Total Yds</span>
+                <span class="font-bold text-white">${rb.carries} att &bull; ${rb.yards} yds</span>
+              </div>
+              <div class="bg-slate-900 p-2 rounded border border-amber-900/40 bg-amber-950/20">
+                <span class="block text-[10px] text-amber-300 font-semibold">Yds Before Contact (YBC)</span>
+                <span class="font-bold text-amber-200">${rb.ybc} yds (${rb.ybc_att}/att)</span>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // 4. Defense
       document.getElementById('boxLight').textContent = `${d.defense_scouting.box_presence.light_box_pct}%`;
       document.getElementById('boxNeutral').textContent = `${d.defense_scouting.box_presence.neutral_box_pct}%`;
       document.getElementById('boxHeavy').textContent = `${d.defense_scouting.box_presence.heavy_box_pct}%`;
@@ -244,14 +446,14 @@
 
       document.getElementById('defStrengths').innerHTML = d.defense_scouting.strengths.map(s => `
         <li class="flex items-start gap-2">
-          <span class="text-emerald-400 mt-0.5">✓</span>
+          <span class="text-emerald-400 mt-0.5">&check;</span>
           <span>${s}</span>
         </li>
       `).join('');
 
       document.getElementById('defWeaknesses').innerHTML = d.defense_scouting.weaknesses.map(w => `
         <li class="flex items-start gap-2">
-          <span class="text-rose-400 mt-0.5">✗</span>
+          <span class="text-rose-400 mt-0.5">&cross;</span>
           <span>${w}</span>
         </li>
       `).join('');
