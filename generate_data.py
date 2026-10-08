@@ -58,11 +58,11 @@ for team in teams:
     def_total = max(def_pass + def_run, 1)
 
     # -------------------------------------------------------------
-    # 1. Top 3 Receivers: Detailed Zones & Heat Map Counts
+    # 1. Top 5 Receivers: Detailed Zones & Heat Map Counts
     # -------------------------------------------------------------
     rec_plays = off_plays[off_plays['play_type'] == 'pass']
     target_counts = rec_plays['receiver_player_name'].value_counts()
-    top_3_receivers = target_counts.head(3).index.tolist()
+    top_3_receivers = target_counts.head(5).index.tolist()
 
     receivers_data = []
     for player in top_3_receivers:
